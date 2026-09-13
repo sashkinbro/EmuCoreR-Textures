@@ -1,4 +1,74 @@
 {
   "schemaVersion": 1,
-  "batches": []
+  "batches": [
+    {
+      "id": "2026-09-13-001",
+      "verifiedAt": "2026-09-13T19:15:00Z",
+      "releaseTag": "texture-catalog-2026-09-13",
+      "entries": [
+        {
+          "catalogId": "sombertwilight-silent-hill-slus-00707-20260913",
+          "sourceArtifact": "SLUS-00707.zip",
+          "sourceSha256": "7469392EEDCC28834D16F5934C8B968FE80B78526594E64CB2A7EB1785D38045",
+          "assetName": "silent-hill-sombertwilight-slus-00707.zip",
+          "normalizedSha256": "4F2D4D3153B95F30A78B0909F7FFB4D463F77D77A70693636989221D5D12D521",
+          "manifestSha256": "853D62F22DA1A2E7C9382CAC7B7D6CDE529466C56B96C1682BE0AEA3957E0733",
+          "contentSetSha256": "0825BBC2CFAD7C60F66A1CE61753415DA251BC4B33FE26ED5DB65BDE6F220C5C",
+          "comparedAgainst": []
+        },
+        {
+          "catalogId": "geniusbug-tekken-3-slus-00402-20260913",
+          "sourceArtifact": "SLUS-00402.rar",
+          "sourceSha256": "D95267D7A1045D5AD9C33919EB948D451F177680FEB73797D357A7888AB920A3",
+          "assetName": "tekken-3-geniusbug-slus-00402.zip",
+          "normalizedSha256": "20515B9D271D3C0E5AB9D76D31F3C7AE4ACABB994888A655DCDF4A156D9FA686",
+          "manifestSha256": "D073EBC84D1DF1C98B2054810D2523225E60A560CA030018E5B980841123906B",
+          "contentSetSha256": "E267733194D41B250D2F61CCA521C26FD5B354E28D14199CD734CB08A5BB8107",
+          "comparedAgainst": []
+        }
+      ]
+    },
+    {
+      "id": "2026-09-13-002",
+      "verifiedAt": "2026-09-13T20:05:00Z",
+      "releaseTag": "texture-catalog-2026-09-13",
+      "entries": [
+        {
+          "catalogId": "curse-arms-evil-dead-hail-to-the-king-slus-01072-20260913",
+          "sourceArtifact": "Evil Dead Hail to the King.rar",
+          "sourceSha256": "2658185210DDCECA1A940F3EF4850EB6EA7CA7F34872D9D854754330E02F8B69",
+          "assetName": "evil-dead-curse-arms-slus-01072.zip",
+          "normalizedSha256": "AA6ACCCF70D8CD7BCDC61FD885405A8899534C144F3BEE50A322160788DAD2C6",
+          "manifestSha256": "328FDF33AA9A03B5C448075575EFA026A53EAD6CA0FC550E08AE8705A66445F1",
+          "contentSetSha256": "326E3BD76AA46B7469036F4E72576BD3A683D91609994BB3149C688DEB15EFEC",
+          "comparedAgainst": []
+        },
+        {
+          "catalogId": "curse-arms-dino-crisis-2-slus-01279-20260913",
+          "sourceArtifact": "Dino Crisis 2.rar",
+          "sourceSha256": "6E28BB815A9942F6ED29887FDC309EB2839BC38BDD1C5230429FEBAA10667E06",
+          "assetName": "dino-crisis-2-curse-arms-slus-01279.zip",
+          "assetParts": [
+            "dino-crisis-2-curse-arms-slus-01279.zip.part001",
+            "dino-crisis-2-curse-arms-slus-01279.zip.part002",
+            "dino-crisis-2-curse-arms-slus-01279.zip.part003"
+          ],
+          "normalizedSha256": "FB41087669578DEDE994B07530772CAAB852FEDA8A06FC42C8D6A8749B4F5B0D",
+          "manifestSha256": "980ADA6A6C5B6AD1E2F22058D0A69ADC86C3462AF44DABC63BD9472F8829F1AB",
+          "contentSetSha256": "315556E10684BBCBAB68D184E8AEEF735046717BF8B935FBB455FE284B321AAB",
+          "comparedAgainst": []
+        },
+        {
+          "catalogId": "curse-arms-resident-evil-1-slus-00170-20260913",
+          "sourceArtifact": "Resident Evil.rar",
+          "sourceSha256": "F9FB8D61F250D981D64B033FED944FDF7E848141B32EEFC620971732B75016DB",
+          "assetName": "resident-evil-1-curse-arms-slus-00170.zip",
+          "normalizedSha256": "7F5EA05A4793E666AA7ED50CF14E7B7149E9384ACF24F455EA9B519B71F05C9D",
+          "manifestSha256": "0EDE8BA0380A68C7F7473DD4A6FD628A7DB831F2FE6406CE55E2FDF6360CB153",
+          "contentSetSha256": "B60A4C64DD5693A923199CE97C8DB149674FE1F99619AFB69FA23F5B38EC8ECE",
+          "comparedAgainst": []
+        }
+      ]
+    }
+  ]
 }

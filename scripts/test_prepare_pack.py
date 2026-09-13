@@ -141,6 +141,32 @@ class PreparePackTest(unittest.TestCase):
 
             self.assertEqual(summary.fileCount, 1)
 
+    def test_accepts_texpage_and_texupload_replacements(self) -> None:
+        page = (
+            "texpage-P4-" + "1" * 16 + "-" + "2" * 16
+            + "-64x256-0-0-256x256-P0-15.png"
+        )
+        upload = (
+            "texupload-P8-" + "3" * 16 + "-" + "4" * 16
+            + "-128x256-0-0-128x256-P0-255.jpg"
+        )
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            source = root / "source.zip"
+            output = root / "output.zip"
+            with zipfile.ZipFile(source, "w") as archive:
+                archive.writestr(f"SLUS-00707/replacements/BASE FILE/{page}", png())
+                archive.writestr(f"SLUS-00707/replacements/{upload}", jpeg())
+
+            summary = prepare(source, output, strip_components=0)
+
+            self.assertEqual(summary.fileCount, 2)
+            with zipfile.ZipFile(output) as archive:
+                self.assertEqual(
+                    sorted(entry.filename for entry in archive.infolist()),
+                    sorted([f"BASE FILE/{page}", upload]),
+                )
+
     def test_skips_files_that_are_not_vram_write_textures(self) -> None:
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)
@@ -172,7 +198,7 @@ class PreparePackTest(unittest.TestCase):
             with self.assertRaises(PackError) as raised:
                 prepare(source, root / "output.zip", strip_components=0)
 
-            self.assertIn("no compatible vram-write textures", str(raised.exception))
+            self.assertIn("no compatible replacement textures", str(raised.exception))
 
     def test_rejects_duplicate_normalized_paths(self) -> None:
         with tempfile.TemporaryDirectory() as temp:
@@ -205,7 +231,7 @@ class PreparePackTest(unittest.TestCase):
             with self.assertRaises(PackError) as raised:
                 validate(archive_path)
 
-            self.assertIn("entry is not a vram-write texture", str(raised.exception))
+            self.assertIn("entry is not a replacement texture", str(raised.exception))
 
     def test_strip_components_applies_after_root_removal(self) -> None:
         with tempfile.TemporaryDirectory() as temp:

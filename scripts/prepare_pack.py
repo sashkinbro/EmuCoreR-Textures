@@ -31,6 +31,12 @@ SERIAL_RE = re.compile(r"^[A-Z]{4}[-_ ]?\d{5}$", re.IGNORECASE)
 VRAM_WRITE_RE = re.compile(
     r"vram-write-[0-9a-f]{32}\.(?:png|jpg|tga|bmp)", re.IGNORECASE
 )
+TEXPAGE_RE = re.compile(
+    r"texpage-[A-Za-z0-9]+-[0-9A-Fa-f]{16}-.+\.(?:png|jpg|tga|bmp)", re.IGNORECASE
+)
+TEXUPLOAD_RE = re.compile(
+    r"texupload-[A-Za-z0-9]+-[0-9A-Fa-f]{16}-.+\.(?:png|jpg|tga|bmp)", re.IGNORECASE
+)
 CODELOAD_ROOT_RE = re.compile(r"^.+-[0-9a-f]{40}$", re.IGNORECASE)
 TGA_IMAGE_TYPES = {1, 2, 3, 9, 10, 11}
 MAX_ARCHIVE_ENTRIES = 50_000
@@ -101,8 +107,12 @@ def is_root_marker(part: str) -> bool:
     return part.casefold() in ROOT_MARKERS
 
 
-def is_vram_write(name: str) -> bool:
-    return bool(VRAM_WRITE_RE.fullmatch(name))
+def is_replacement(name: str) -> bool:
+    return bool(
+        VRAM_WRITE_RE.fullmatch(name)
+        or TEXPAGE_RE.fullmatch(name)
+        or TEXUPLOAD_RE.fullmatch(name)
+    )
 
 
 def texture_relative_path(parts: tuple[str, ...], strip_components: int) -> tuple[str, ...]:
@@ -248,7 +258,7 @@ def normalized_sources(
         parts = clean_parts(source.name)
         basename = parts[-1]
         extension = PurePosixPath(basename).suffix.casefold()
-        if extension not in TEXTURE_EXTENSIONS or not is_vram_write(basename):
+        if extension not in TEXTURE_EXTENSIONS or not is_replacement(basename):
             skipped_files += 1
             continue
         if source.size <= 0:
@@ -270,7 +280,7 @@ def normalized_sources(
         if len(normalized) > MAX_ARCHIVE_ENTRIES:
             raise PackError("pack exceeds 50,000 texture files")
     if not normalized:
-        raise PackError("pack contains no compatible vram-write textures")
+        raise PackError("pack contains no compatible replacement textures")
     return normalized, skipped_files
 
 
@@ -348,8 +358,8 @@ def inspect(path: Path, skipped_files: int = 0) -> tuple[PackSummary, dict[str, 
                 continue
             parts = clean_parts(info.filename)
             basename = parts[-1]
-            if not is_vram_write(basename):
-                raise PackError(f"entry is not a vram-write texture: {info.filename}")
+            if not is_replacement(basename):
+                raise PackError(f"entry is not a replacement texture: {info.filename}")
             extension = PurePosixPath(basename).suffix.casefold()
             if extension not in TEXTURE_EXTENSIONS:
                 raise PackError(f"unsupported file in normalized ZIP: {info.filename}")

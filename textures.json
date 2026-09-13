@@ -1,5 +1,108 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-13T13:05:34Z",
-  "entries": []
+  "generatedAt": "2026-09-13T20:05:00Z",
+  "entries": [
+    {
+      "id": "sombertwilight-silent-hill-slus-00707-20260913",
+      "name": "Silent Hill HD Texture Pack",
+      "gameTitle": "Silent Hill",
+      "serials": ["SLUS-00707"],
+      "version": "2024 public release",
+      "authors": ["SomberTwilight"],
+      "credits": "HD texture pack created by SomberTwilight; normalized and repackaged by EmuCoreR with the original source and author attribution retained. All rights remain with the original creator.",
+      "description": "AI-upscaled replacement textures for the North American release (SLUS-00707). Alternate character variants are not included.",
+      "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/silent-hill-sombertwilight-slus-00707.zip",
+      "sourceUrl": "https://www.youtube.com/watch?v=tMdzmP8Okjo",
+      "license": "See source page terms",
+      "sizeBytes": 1294799381,
+      "sha256": "4F2D4D3153B95F30A78B0909F7FFB4D463F77D77A70693636989221D5D12D521",
+      "fileCount": 6122,
+      "previewUrls": []
+    },
+    {
+      "id": "geniusbug-tekken-3-slus-00402-20260913",
+      "name": "Tekken 3 HD Texture Pack",
+      "gameTitle": "Tekken 3",
+      "serials": ["SLUS-00402"],
+      "version": "2025 public release",
+      "authors": ["geniusbug"],
+      "credits": "HD texture pack created by geniusbug; normalized and repackaged by EmuCoreR with the original source and author attribution retained. All rights remain with the original creator.",
+      "description": "AI-upscaled replacement textures for the North American release (SLUS-00402).",
+      "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/tekken-3-geniusbug-slus-00402.zip",
+      "sourceUrl": "https://www.patreon.com/geniusbug/posts/how-to-install-138140746",
+      "license": "See source page terms",
+      "sizeBytes": 529590316,
+      "sha256": "20515B9D271D3C0E5AB9D76D31F3C7AE4ACABB994888A655DCDF4A156D9FA686",
+      "fileCount": 5902,
+      "previewUrls": []
+    },
+    {
+      "id": "curse-arms-evil-dead-hail-to-the-king-slus-01072-20260913",
+      "name": "Evil Dead: Hail to the King HD Texture Pack",
+      "gameTitle": "Evil Dead: Hail to the King",
+      "serials": ["SLUS-01072"],
+      "version": "2025 public release",
+      "authors": ["Curse_Arms"],
+      "credits": "HD texture pack created by Curse_Arms; normalized and repackaged by EmuCoreR with the original source and author attribution retained. All rights remain with the original creator.",
+      "description": "AI-upscaled replacement textures for the North American release (SLUS-01072).",
+      "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/evil-dead-curse-arms-slus-01072.zip",
+      "sourceUrl": "https://gbatemp.net/threads/evil-dead-hail-to-the-king-duckstation-hd-textures.673023/",
+      "license": "See source page terms",
+      "sizeBytes": 1519198327,
+      "sha256": "AA6ACCCF70D8CD7BCDC61FD885405A8899534C144F3BEE50A322160788DAD2C6",
+      "fileCount": 32173,
+      "previewUrls": []
+    },
+    {
+      "id": "curse-arms-dino-crisis-2-slus-01279-20260913",
+      "name": "Dino Crisis 2 HD Texture Pack",
+      "gameTitle": "Dino Crisis 2",
+      "serials": ["SLUS-01279"],
+      "version": "2025 public release",
+      "authors": ["Curse_Arms"],
+      "credits": "HD texture pack created by Curse_Arms; normalized and repackaged by EmuCoreR with the original source and author attribution retained. All rights remain with the original creator.",
+      "description": "AI-upscaled replacement textures for the North American release (SLUS-01279).",
+      "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/dino-crisis-2-curse-arms-slus-01279.zip.part001",
+      "sourceUrl": "https://gbatemp.net/threads/dino-crisis-2-duckstation-hd-textures.672948/",
+      "license": "See source page terms",
+      "sizeBytes": 4444780376,
+      "sha256": "FB41087669578DEDE994B07530772CAAB852FEDA8A06FC42C8D6A8749B4F5B0D",
+      "fileCount": 3605,
+      "previewUrls": [],
+      "parts": [
+        {
+          "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/dino-crisis-2-curse-arms-slus-01279.zip.part001",
+          "sizeBytes": 1900000000,
+          "sha256": "49AD4589896DF26AD542A847933B6E95BE432F7134D6E279E8001F0DF8496FF9"
+        },
+        {
+          "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/dino-crisis-2-curse-arms-slus-01279.zip.part002",
+          "sizeBytes": 1900000000,
+          "sha256": "A971A1A4B8B425A265ADA0514DB6A065527DA95F5B22695DAAD35C09C2E514AD"
+        },
+        {
+          "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/dino-crisis-2-curse-arms-slus-01279.zip.part003",
+          "sizeBytes": 644780376,
+          "sha256": "79E2F3B2F5B3031C8C71E4C16008DF1C045C27064B16C734AB974035E53E9A6F"
+        }
+      ]
+    },
+    {
+      "id": "curse-arms-resident-evil-1-slus-00170-20260913",
+      "name": "Resident Evil HD Texture Pack",
+      "gameTitle": "Resident Evil",
+      "serials": ["SLUS-00170"],
+      "version": "2025 public release",
+      "authors": ["Curse_Arms"],
+      "credits": "HD texture pack created by Curse_Arms; normalized and repackaged by EmuCoreR with the original source and author attribution retained. All rights remain with the original creator.",
+      "description": "AI-upscaled replacement textures for the North American release (SLUS-00170).",
+      "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/resident-evil-1-curse-arms-slus-00170.zip",
+      "sourceUrl": "https://gbatemp.net/threads/resident-evil-duckstation-hd-textures.672201/",
+      "license": "See source page terms",
+      "sizeBytes": 1103869359,
+      "sha256": "7F5EA05A4793E666AA7ED50CF14E7B7149E9384ACF24F455EA9B519B71F05C9D",
+      "fileCount": 1502,
+      "previewUrls": []
+    }
+  ]
 }
