@@ -69,6 +69,67 @@
           "comparedAgainst": []
         }
       ]
+    },
+    {
+      "id": "2026-09-13-003",
+      "verifiedAt": "2026-09-13T21:10:00Z",
+      "releaseTag": "texture-catalog-2026-09-13",
+      "entries": [
+        {
+          "catalogId": "curse-arms-resident-evil-3-nemesis-slus-00923-20260913",
+          "sourceArtifact": "Resident Evil 3 Nemesis.rar",
+          "sourceSha256": "D4F6695B1A03220D2EE570DD714E10B92A3C4F10280B64EAC23DF1C9F23DDCB9",
+          "assetName": "resident-evil-3-curse-arms-slus-00923.zip",
+          "assetParts": [
+            "resident-evil-3-curse-arms-slus-00923.zip.part001",
+            "resident-evil-3-curse-arms-slus-00923.zip.part002"
+          ],
+          "normalizedSha256": "40CCEC912F09C4F205E92135489BA85C85E294892EA3E88F09187D02AAFAC6C0",
+          "manifestSha256": "3CAD50D358ACC13A5F130F5D6A51D2CAE3CE6F6D80FE9E28A040387501028105",
+          "contentSetSha256": "116518BCCD8CC072D2D1F1949D94AE32ACCA5D4035D944F042BE1BA4B396AC7F",
+          "comparedAgainst": []
+        },
+        {
+          "catalogId": "curse-arms-batman-beyond-return-of-the-joker-slus-01207-20260913",
+          "sourceArtifact": "Batman Beyond Return of the Joker.rar",
+          "sourceSha256": "0CBF29AE4D7C0AF19D06A4B198603A738350A8533E90CC371FC8C2A321558699",
+          "assetName": "batman-beyond-curse-arms-slus-01207.zip",
+          "normalizedSha256": "F727791766A8372EFE878B197BC941D720FD9C9CD316321DF31B19327EA163D2",
+          "manifestSha256": "594242506437DC2D1F9B239F2EE3BE3B84ACCD8B83F865ACC7321728419200A0",
+          "contentSetSha256": "2D993C08B6A114A727F1C8D0C0035BB3C9B5907ADC9E7436AD53FF2224E030B5",
+          "comparedAgainst": []
+        },
+        {
+          "catalogId": "curse-arms-tobal-2-scps-45025-20260913",
+          "sourceArtifact": "Tobal 2.rar",
+          "sourceSha256": "49F7AFB1DD6054365FDD40497D9C46FE89B6DD1431D54582142CE62777F205E4",
+          "assetName": "tobal-2-curse-arms-scps-45025.zip",
+          "normalizedSha256": "4551B6D062C2A229571578269837FF1DF78D331CBA9A08A5DACB95698459C8AF",
+          "manifestSha256": "E79FACD00B5F66DD46E7690A4BEB74F6D6EA61A0ED8F39DB08ABADDD26FFBAEA",
+          "contentSetSha256": "0E38ABF483FB3666A3323AE8D0031CB51DD69BC61CB6029F9DE6BD1EA6524313",
+          "comparedAgainst": []
+        },
+        {
+          "catalogId": "curse-arms-parasite-eve-2-slus-01055-20260913",
+          "sourceArtifact": "Parasite Eve II.rar",
+          "sourceSha256": "EE99C6B998E38244894D06DB01985E0740BD2A334D42CA74961377042A13E7E4",
+          "assetName": "parasite-eve-2-curse-arms-slus-01055.zip",
+          "normalizedSha256": "F34523420A09A1C70BC31CDC73E35F6ED393D8CF90E13949922C2F895D6F5667",
+          "manifestSha256": "110DE57243BC8DAB230B4C3C885CE1078232A8C2D65A816C9AC1740991304A73",
+          "contentSetSha256": "973539FE8F87BCE42016940D0249582F22A5E56084EA590336A3B03A1F25DE6F",
+          "comparedAgainst": []
+        },
+        {
+          "catalogId": "curse-arms-legend-of-legaia-scus-94254-20260913",
+          "sourceArtifact": "Legend of Legaia.rar",
+          "sourceSha256": "18409A8342C9648D07A2300B462B39F013E7D76AA4D38E045E567886209D0DE2",
+          "assetName": "legend-of-legaia-curse-arms-scus-94254.zip",
+          "normalizedSha256": "CF24F0887BDDED5D2611E47298A772C0E046350A9D8841CED58CDADA125D8807",
+          "manifestSha256": "B0F62AAB19906CF7FC00C9F55A54B764A3E5AAC9F4A9FBEB22F3C8323446CECC",
+          "contentSetSha256": "762E5F31CE399942663740F21F1F83F1BAA809764193E6A28FE6C61CF21FC191",
+          "comparedAgainst": []
+        }
+      ]
     }
   ]
 }

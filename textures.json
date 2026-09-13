@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-13T20:05:00Z",
+  "generatedAt": "2026-09-13T21:10:00Z",
   "entries": [
     {
       "id": "sombertwilight-silent-hill-slus-00707-20260913",
@@ -102,6 +102,103 @@
       "sizeBytes": 1103869359,
       "sha256": "7F5EA05A4793E666AA7ED50CF14E7B7149E9384ACF24F455EA9B519B71F05C9D",
       "fileCount": 1502,
+      "previewUrls": []
+    },
+    {
+      "id": "curse-arms-resident-evil-3-nemesis-slus-00923-20260913",
+      "name": "Resident Evil 3: Nemesis HD Texture Pack",
+      "gameTitle": "Resident Evil 3: Nemesis",
+      "serials": ["SLUS-00923"],
+      "version": "2025 public release",
+      "authors": ["Curse_Arms"],
+      "credits": "HD texture pack created by Curse_Arms; normalized and repackaged by EmuCoreR with the original source and author attribution retained. All rights remain with the original creator.",
+      "description": "AI-upscaled replacement textures for SLUS-00923.",
+      "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/resident-evil-3-curse-arms-slus-00923.zip.part001",
+      "sourceUrl": "https://gbatemp.net/threads/resident-evil-3-nemesis-duckstation-hd-textures.671314/",
+      "license": "See source page terms",
+      "sizeBytes": 3341658442,
+      "sha256": "40CCEC912F09C4F205E92135489BA85C85E294892EA3E88F09187D02AAFAC6C0",
+      "fileCount": 4444,
+      "previewUrls": [],
+      "parts": [
+        {
+          "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/resident-evil-3-curse-arms-slus-00923.zip.part001",
+          "sizeBytes": 1900000000,
+          "sha256": "A0E46E7ED772F64A44CAE44DD248B3DDEF4A67AB12AF7240753DD394AFC44A3D"
+        },
+        {
+          "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/resident-evil-3-curse-arms-slus-00923.zip.part002",
+          "sizeBytes": 1441658442,
+          "sha256": "456DD69155D963DEE1CC17DF193EF6118B4ADCAC776C28A13C6DAF1D21400A7F"
+        }
+      ]
+    },
+    {
+      "id": "curse-arms-batman-beyond-return-of-the-joker-slus-01207-20260913",
+      "name": "Batman Beyond: Return of the Joker HD Texture Pack",
+      "gameTitle": "Batman Beyond: Return of the Joker",
+      "serials": ["SLUS-01207"],
+      "version": "2025 public release",
+      "authors": ["Curse_Arms"],
+      "credits": "HD texture pack created by Curse_Arms; normalized and repackaged by EmuCoreR with the original source and author attribution retained. All rights remain with the original creator.",
+      "description": "AI-upscaled replacement textures for SLUS-01207.",
+      "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/batman-beyond-curse-arms-slus-01207.zip",
+      "sourceUrl": "https://gbatemp.net/threads/batman-beyond-return-of-the-joker-duckstation-hd-textures.668430/",
+      "license": "See source page terms",
+      "sizeBytes": 171192153,
+      "sha256": "F727791766A8372EFE878B197BC941D720FD9C9CD316321DF31B19327EA163D2",
+      "fileCount": 2418,
+      "previewUrls": []
+    },
+    {
+      "id": "curse-arms-tobal-2-scps-45025-20260913",
+      "name": "Tobal 2 HD Texture Pack",
+      "gameTitle": "Tobal 2",
+      "serials": ["SCPS-45025"],
+      "version": "2025 public release",
+      "authors": ["Curse_Arms"],
+      "credits": "HD texture pack created by Curse_Arms; normalized and repackaged by EmuCoreR with the original source and author attribution retained. All rights remain with the original creator.",
+      "description": "AI-upscaled replacement textures for SCPS-45025.",
+      "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/tobal-2-curse-arms-scps-45025.zip",
+      "sourceUrl": "https://gbatemp.net/threads/tobal-2-duckstation-hd-textures.668407/",
+      "license": "See source page terms",
+      "sizeBytes": 119371598,
+      "sha256": "4551B6D062C2A229571578269837FF1DF78D331CBA9A08A5DACB95698459C8AF",
+      "fileCount": 538,
+      "previewUrls": []
+    },
+    {
+      "id": "curse-arms-parasite-eve-2-slus-01055-20260913",
+      "name": "Parasite Eve II HD Texture Pack",
+      "gameTitle": "Parasite Eve II",
+      "serials": ["SLUS-01055"],
+      "version": "2025 public release",
+      "authors": ["Curse_Arms"],
+      "credits": "HD texture pack created by Curse_Arms; normalized and repackaged by EmuCoreR with the original source and author attribution retained. All rights remain with the original creator.",
+      "description": "AI-upscaled replacement textures for SLUS-01055.",
+      "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/parasite-eve-2-curse-arms-slus-01055.zip",
+      "sourceUrl": "https://gbatemp.net/threads/parasite-eve-ii-duckstation-hd-textures.672709/",
+      "license": "See source page terms",
+      "sizeBytes": 1212123584,
+      "sha256": "F34523420A09A1C70BC31CDC73E35F6ED393D8CF90E13949922C2F895D6F5667",
+      "fileCount": 4256,
+      "previewUrls": []
+    },
+    {
+      "id": "curse-arms-legend-of-legaia-scus-94254-20260913",
+      "name": "Legend of Legaia HD Texture Pack",
+      "gameTitle": "Legend of Legaia",
+      "serials": ["SCUS-94254"],
+      "version": "2025 public release",
+      "authors": ["Curse_Arms"],
+      "credits": "HD texture pack created by Curse_Arms; normalized and repackaged by EmuCoreR with the original source and author attribution retained. All rights remain with the original creator.",
+      "description": "AI-upscaled replacement textures for SCUS-94254.",
+      "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/legend-of-legaia-curse-arms-scus-94254.zip",
+      "sourceUrl": "https://gbatemp.net/threads/legend-of-legaia-duckstation-hd-textures.668998/",
+      "license": "See source page terms",
+      "sizeBytes": 1802431527,
+      "sha256": "CF24F0887BDDED5D2611E47298A772C0E046350A9D8841CED58CDADA125D8807",
+      "fileCount": 7911,
       "previewUrls": []
     }
   ]
