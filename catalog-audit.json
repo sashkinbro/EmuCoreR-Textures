@@ -191,6 +191,53 @@
           "comparedAgainst": []
         }
       ]
+    },
+    {
+      "id": "2026-09-15-003",
+      "verifiedAt": "2026-09-15T19:58:38Z",
+      "releaseTag": "texture-catalog-2026-09-13",
+      "entries": [
+        {
+          "catalogId": "curse-arms-the-lost-world-jurassic-park-slus-00515-20260915",
+          "sourceArtifact": "The Lost World: Jurassic Park by Curse_Arms",
+          "sourceSha256": "A7C89531BE1123B6B36931EC75C6DF69D0C14C7DFC05F6E27BB606ED9AFF9A5E",
+          "assetName": "curse-arms-the-lost-world-jurassic-park-slus-00515-20260915.zip",
+          "normalizedSha256": "689F2C5DB8E05DDF7BF69D79AC1B30B77B282BAAA40FA2EE553595FF60DB3EE3",
+          "manifestSha256": "10DD2BD3FB87F69E7A9212B552605FC3E7A2A50BEC744F6120C6BD40444CF546",
+          "contentSetSha256": "474C41661BF7D7A1F332FA2E39B60CB78C33F06FDF201B9050D584ED95680988",
+          "comparedAgainst": []
+        },
+        {
+          "catalogId": "curse-arms-the-mummy-slus-01187-20260915",
+          "sourceArtifact": "The Mummy by Curse_Arms",
+          "sourceSha256": "C623E99D4A848C3980F74A8C08B92CFBED7C06DF709A3B53A9968E7287C1C8C6",
+          "assetName": "curse-arms-the-mummy-slus-01187-20260915.zip",
+          "normalizedSha256": "CBE2F88065AFF3E15048ED51D326825CAD162C01678CD6C8149120BAE5138937",
+          "manifestSha256": "BE82375125843BCC497443E7D1FE56E851CB8EEEAAA982D6E27C83963FDF6311",
+          "contentSetSha256": "3A0B776A46988A0D54473F439F636954F802BF0E39D68D556CFD89376A55BDC4",
+          "comparedAgainst": []
+        },
+        {
+          "catalogId": "curse-arms-time-crisis-slus-00405-20260915",
+          "sourceArtifact": "Time Crisis by Curse_Arms",
+          "sourceSha256": "58F772BA084477106F30264EEBCCF7F01D632EFFE33473679DF184BEEDCED50F",
+          "assetName": "curse-arms-time-crisis-slus-00405-20260915.zip",
+          "normalizedSha256": "14BAB8F13A677B8F7A337C79216516C46385F061B5EAC9FFD56465A4732ED7CF",
+          "manifestSha256": "C4586A4EFBB2A419D67111410E5D18CEE5F0627FD26FA3EFB92B8F36EB643D4A",
+          "contentSetSha256": "410080C607CCFEF07D7EB159C82D7FB525BDE258BB7EA9D1063A82D887D12A72",
+          "comparedAgainst": []
+        },
+        {
+          "catalogId": "curse-arms-vampire-hunter-d-slus-01138-20260915",
+          "sourceArtifact": "Vampire Hunter D by Curse_Arms",
+          "sourceSha256": "B69F01161DB018F5530C080AD231E4B09DFEBD5F8BE9982730492E6AD9A4C8C8",
+          "assetName": "curse-arms-vampire-hunter-d-slus-01138-20260915.zip",
+          "normalizedSha256": "5AA4939045E152207FF2CC1558CDBD6A786ECCF07E7317FE73C05B541E9686E8",
+          "manifestSha256": "53F61B988A4619E1D59DAEA6E6D08EDD507F673FFF31D68708F1B98D7BCA1720",
+          "contentSetSha256": "EC084D22DAD82D0D16607AE7A5123674711F23E9ADF001C71561B68849951D15",
+          "comparedAgainst": []
+        }
+      ]
     }
   ]
 }

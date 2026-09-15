@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-15T18:31:37Z",
+  "generatedAt": "2026-09-15T19:58:38Z",
   "entries": [
     {
       "id": "sombertwilight-silent-hill-slus-00707-20260913",
@@ -297,6 +297,74 @@
           "sha256": "D384AB8B1012ACD4D9D6937242909EB4271DD55DA5CF7413593D8BEF5D9ADDC2"
         }
       ]
+    },
+    {
+      "id": "curse-arms-the-lost-world-jurassic-park-slus-00515-20260915",
+      "name": "The Lost World: Jurassic Park HD Texture Pack",
+      "gameTitle": "The Lost World: Jurassic Park",
+      "serials": ["SLUS-00515"],
+      "version": "public release",
+      "authors": ["Curse_Arms"],
+      "credits": "HD texture pack created by Curse_Arms; normalized and repackaged by EmuCoreR with the original source and author attribution retained. All rights remain with the original creator.",
+      "description": "AI-upscaled replacement textures for The Lost World: Jurassic Park (SLUS-00515).",
+      "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-the-lost-world-jurassic-park-slus-00515-20260915.zip",
+      "sourceUrl": "https://gbatemp.net/threads/my-hd-remaster-pack.630347/",
+      "license": "See source page terms",
+      "sizeBytes": 253547588,
+      "sha256": "689F2C5DB8E05DDF7BF69D79AC1B30B77B282BAAA40FA2EE553595FF60DB3EE3",
+      "fileCount": 2955,
+      "previewUrls": []
+    },
+    {
+      "id": "curse-arms-the-mummy-slus-01187-20260915",
+      "name": "The Mummy HD Texture Pack",
+      "gameTitle": "The Mummy",
+      "serials": ["SLUS-01187"],
+      "version": "public release",
+      "authors": ["Curse_Arms"],
+      "credits": "HD texture pack created by Curse_Arms; normalized and repackaged by EmuCoreR with the original source and author attribution retained. All rights remain with the original creator.",
+      "description": "AI-upscaled replacement textures for The Mummy (SLUS-01187).",
+      "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-the-mummy-slus-01187-20260915.zip",
+      "sourceUrl": "https://gbatemp.net/threads/my-hd-remaster-pack.630347/",
+      "license": "See source page terms",
+      "sizeBytes": 1391357316,
+      "sha256": "CBE2F88065AFF3E15048ED51D326825CAD162C01678CD6C8149120BAE5138937",
+      "fileCount": 9207,
+      "previewUrls": []
+    },
+    {
+      "id": "curse-arms-time-crisis-slus-00405-20260915",
+      "name": "Time Crisis HD Texture Pack",
+      "gameTitle": "Time Crisis",
+      "serials": ["SLUS-00405"],
+      "version": "public release",
+      "authors": ["Curse_Arms"],
+      "credits": "HD texture pack created by Curse_Arms; normalized and repackaged by EmuCoreR with the original source and author attribution retained. All rights remain with the original creator.",
+      "description": "AI-upscaled replacement textures for Time Crisis (SLUS-00405).",
+      "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-time-crisis-slus-00405-20260915.zip",
+      "sourceUrl": "https://gbatemp.net/threads/my-hd-remaster-pack.630347/",
+      "license": "See source page terms",
+      "sizeBytes": 278823526,
+      "sha256": "14BAB8F13A677B8F7A337C79216516C46385F061B5EAC9FFD56465A4732ED7CF",
+      "fileCount": 2650,
+      "previewUrls": []
+    },
+    {
+      "id": "curse-arms-vampire-hunter-d-slus-01138-20260915",
+      "name": "Vampire Hunter D HD Texture Pack",
+      "gameTitle": "Vampire Hunter D",
+      "serials": ["SLUS-01138"],
+      "version": "public release",
+      "authors": ["Curse_Arms"],
+      "credits": "HD texture pack created by Curse_Arms; normalized and repackaged by EmuCoreR with the original source and author attribution retained. All rights remain with the original creator.",
+      "description": "AI-upscaled replacement textures for Vampire Hunter D (SLUS-01138).",
+      "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-vampire-hunter-d-slus-01138-20260915.zip",
+      "sourceUrl": "https://gbatemp.net/threads/my-hd-remaster-pack.630347/",
+      "license": "See source page terms",
+      "sizeBytes": 2001888147,
+      "sha256": "5AA4939045E152207FF2CC1558CDBD6A786ECCF07E7317FE73C05B541E9686E8",
+      "fileCount": 6061,
+      "previewUrls": []
     }
   ]
 }
