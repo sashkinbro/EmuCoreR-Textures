@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-15T21:10:31Z",
+  "generatedAt": "2026-09-15T21:25:57Z",
   "entries": [
     {
       "id": "sombertwilight-silent-hill-slus-00707-20260913",
@@ -775,6 +775,94 @@
       "sha256": "C41432665FE402A5FF48BB65E5B7809C39F20CEC036192215FAAE13AC99BB51E",
       "fileCount": 1820,
       "previewUrls": []
+    },
+    {
+      "id": "curse-arms-valkyrie-profile-slus-01156-20260915-p1of2",
+      "name": "Valkyrie Profile HD Texture Pack (Part 1 of 2)",
+      "gameTitle": "Valkyrie Profile",
+      "serials": ["SLUS-01156", "SLUS-01179"],
+      "version": "public release",
+      "authors": ["Curse_Arms"],
+      "credits": "HD texture pack created by Curse_Arms; normalized and repackaged by EmuCoreR with the original source and author attribution retained. All rights remain with the original creator.",
+      "description": "AI-upscaled replacement textures for Valkyrie Profile (SLUS-01156, SLUS-01179). Disc 1 uses SLUS-01156 and Disc 2 uses SLUS-01179; the same textures work for both discs. Ordered part 1 of 2; install all parts into the same game folder.",
+      "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-valkyrie-profile-slus-01156-20260915-p1of2.zip.part001",
+      "sourceUrl": "https://gbatemp.net/threads/valkyrie-profile-duckstation-hd-textures.670037/",
+      "license": "See source page terms",
+      "sizeBytes": 8376676306,
+      "sha256": "431D90A2F3E80F22664776DDE3A28C6B2B4511360AE4EDB76E17A93522979B45",
+      "fileCount": 45000,
+      "previewUrls": [],
+      "parts": [
+        {
+          "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-valkyrie-profile-slus-01156-20260915-p1of2.zip.part001",
+          "sizeBytes": 1900000000,
+          "sha256": "302754DB1E6131FFAC2A8AF09D20E1C9161ADEAF8A1680E6BB77B6AF3FBB02BC"
+        },
+        {
+          "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-valkyrie-profile-slus-01156-20260915-p1of2.zip.part002",
+          "sizeBytes": 1900000000,
+          "sha256": "98036EB86DCB38D908C13430CB18DEE82BB434E1688EC3BA676C34F93207484B"
+        },
+        {
+          "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-valkyrie-profile-slus-01156-20260915-p1of2.zip.part003",
+          "sizeBytes": 1900000000,
+          "sha256": "FDDE6D17D87B6E975D5DF0FC896C74472D5BB056A97A8CD84AA9A8AA7FF3E3BA"
+        },
+        {
+          "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-valkyrie-profile-slus-01156-20260915-p1of2.zip.part004",
+          "sizeBytes": 1900000000,
+          "sha256": "77EE27CBEA392149097F89548B1CE3E3069AB351C94C4DB6D64FBDB0ACDD0307"
+        },
+        {
+          "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-valkyrie-profile-slus-01156-20260915-p1of2.zip.part005",
+          "sizeBytes": 776676306,
+          "sha256": "901C7C82E36CCCBFE18D351B2B2C13B49A735209CE7B70AF1C86A779B9196907"
+        }
+      ]
+    },
+    {
+      "id": "curse-arms-valkyrie-profile-slus-01156-20260915-p2of2",
+      "name": "Valkyrie Profile HD Texture Pack (Part 2 of 2)",
+      "gameTitle": "Valkyrie Profile",
+      "serials": ["SLUS-01156", "SLUS-01179"],
+      "version": "public release",
+      "authors": ["Curse_Arms"],
+      "credits": "HD texture pack created by Curse_Arms; normalized and repackaged by EmuCoreR with the original source and author attribution retained. All rights remain with the original creator.",
+      "description": "AI-upscaled replacement textures for Valkyrie Profile (SLUS-01156, SLUS-01179). Disc 1 uses SLUS-01156 and Disc 2 uses SLUS-01179; the same textures work for both discs. Ordered part 2 of 2; install all parts into the same game folder.",
+      "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-valkyrie-profile-slus-01156-20260915-p2of2.zip.part001",
+      "sourceUrl": "https://gbatemp.net/threads/valkyrie-profile-duckstation-hd-textures.670037/",
+      "license": "See source page terms",
+      "sizeBytes": 9002258737,
+      "sha256": "686C6B944363169BB36CF0BC7FDD9AB3DEE8881A65117BD3D494C6FA31C4D93F",
+      "fileCount": 42612,
+      "previewUrls": [],
+      "parts": [
+        {
+          "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-valkyrie-profile-slus-01156-20260915-p2of2.zip.part001",
+          "sizeBytes": 1900000000,
+          "sha256": "D53E4597675E5F308E5C25AFEA7172FF766E6F2020E23266F2A5E49A1178E92C"
+        },
+        {
+          "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-valkyrie-profile-slus-01156-20260915-p2of2.zip.part002",
+          "sizeBytes": 1900000000,
+          "sha256": "FE88543CEAD00910C1AD3F96BF3B208CA83499E80C396FCDFC5918A2C90FEA03"
+        },
+        {
+          "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-valkyrie-profile-slus-01156-20260915-p2of2.zip.part003",
+          "sizeBytes": 1900000000,
+          "sha256": "FF74617A08E7F244BBEC1851EA9993E5423DE1027EA5A19EFF89F2234A00F63D"
+        },
+        {
+          "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-valkyrie-profile-slus-01156-20260915-p2of2.zip.part004",
+          "sizeBytes": 1900000000,
+          "sha256": "A4239F400E435D690A1BADC3460F3541B5811F49B6C419A3948F3E3AE93F6677"
+        },
+        {
+          "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-valkyrie-profile-slus-01156-20260915-p2of2.zip.part005",
+          "sizeBytes": 1402258737,
+          "sha256": "80CD48294BB9DF735DE7DC68C27F5DEB875D5F32B00885DC787EF473D03EB9D2"
+        }
+      ]
     }
   ]
 }

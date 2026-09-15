@@ -481,6 +481,55 @@
           "comparedAgainst": []
         }
       ]
+    },
+    {
+      "id": "2026-09-15-005",
+      "verifiedAt": "2026-09-15T21:25:57Z",
+      "releaseTag": "texture-catalog-2026-09-13",
+      "entries": [
+        {
+          "catalogId": "curse-arms-valkyrie-profile-slus-01156-20260915-p1of2",
+          "sourceArtifact": "Valkyrie Profile by Curse_Arms (4-part RAR)",
+          "sourceSha256": "59F2E30BA3EFD9B7F3B76985157ECF96C3DE366980D411479FE28CA8F0F5B8F4",
+          "assetName": "curse-arms-valkyrie-profile-slus-01156-20260915-p1of2.zip",
+          "assetParts": [
+            "curse-arms-valkyrie-profile-slus-01156-20260915-p1of2.zip.part001",
+            "curse-arms-valkyrie-profile-slus-01156-20260915-p1of2.zip.part002",
+            "curse-arms-valkyrie-profile-slus-01156-20260915-p1of2.zip.part003",
+            "curse-arms-valkyrie-profile-slus-01156-20260915-p1of2.zip.part004",
+            "curse-arms-valkyrie-profile-slus-01156-20260915-p1of2.zip.part005"
+          ],
+          "sourceSplit": {
+            "part": 1,
+            "total": 2
+          },
+          "normalizedSha256": "431D90A2F3E80F22664776DDE3A28C6B2B4511360AE4EDB76E17A93522979B45",
+          "manifestSha256": "58B3A9A0D6C3AEC47953C2274E58C72DD0461AEADBDE9AC094262634031E3A3E",
+          "contentSetSha256": "C5C283E5EFA7BD20AA6423C6C3DF139C4604554BF573AB306166C637089F3EBA",
+          "comparedAgainst": []
+        },
+        {
+          "catalogId": "curse-arms-valkyrie-profile-slus-01156-20260915-p2of2",
+          "sourceArtifact": "Valkyrie Profile by Curse_Arms (4-part RAR)",
+          "sourceSha256": "59F2E30BA3EFD9B7F3B76985157ECF96C3DE366980D411479FE28CA8F0F5B8F4",
+          "assetName": "curse-arms-valkyrie-profile-slus-01156-20260915-p2of2.zip",
+          "assetParts": [
+            "curse-arms-valkyrie-profile-slus-01156-20260915-p2of2.zip.part001",
+            "curse-arms-valkyrie-profile-slus-01156-20260915-p2of2.zip.part002",
+            "curse-arms-valkyrie-profile-slus-01156-20260915-p2of2.zip.part003",
+            "curse-arms-valkyrie-profile-slus-01156-20260915-p2of2.zip.part004",
+            "curse-arms-valkyrie-profile-slus-01156-20260915-p2of2.zip.part005"
+          ],
+          "sourceSplit": {
+            "part": 2,
+            "total": 2
+          },
+          "normalizedSha256": "686C6B944363169BB36CF0BC7FDD9AB3DEE8881A65117BD3D494C6FA31C4D93F",
+          "manifestSha256": "5E5FC280AD29569E250873BF4151C6BD95725ED9529BFD4FFB442FA64A430A5C",
+          "contentSetSha256": "B50127F1D8740046C35A2B03613B37CD92BBB349B142ECF3B88369875800B943",
+          "comparedAgainst": []
+        }
+      ]
     }
   ]
 }
