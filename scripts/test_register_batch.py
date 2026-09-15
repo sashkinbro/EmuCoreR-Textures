@@ -87,6 +87,115 @@ class SourceEvidenceTests(unittest.TestCase):
                 resolve_source_sha256(missing, 123, "not-a-digest")
 
 
+def write_normalized_pack_variant(path: Path, marker: str) -> None:
+    with zipfile.ZipFile(path, "w") as archive:
+        archive.writestr(
+            "vram-write-" + marker * 32 + ".bmp",
+            b"BM" + b"\x00" * 30 + marker.encode("ascii"),
+        )
+
+
+class SourceSplitTests(unittest.TestCase):
+    def build_args(self, root: Path, manifest: list[dict]) -> argparse.Namespace:
+        source_dir = root / "source"
+        ready_dir = root / "ready"
+        source_dir.mkdir()
+        ready_dir.mkdir()
+        source_file = source_dir / "source.zip"
+        source_file.write_bytes(b"verified source")
+        digest = sha256_file(source_file)
+        write_normalized_pack_variant(ready_dir / "pack-a.zip", "a")
+        write_normalized_pack_variant(ready_dir / "pack-b.zip", "b")
+        for item in manifest:
+            item["sourceSha256"] = digest
+            item["expectedSourceBytes"] = source_file.stat().st_size
+        catalog_path = root / "textures.json"
+        catalog_path.write_text(
+            json.dumps({"schemaVersion": 1, "generatedAt": "2026-09-01T00:00:00Z", "entries": []}),
+            encoding="utf-8",
+        )
+        audit_path = root / "catalog-audit.json"
+        audit_path.write_text(
+            json.dumps({"schemaVersion": 1, "batches": []}), encoding="utf-8"
+        )
+        manifest_path = root / "sources.json"
+        manifest_path.write_text(json.dumps(manifest), encoding="utf-8")
+        return argparse.Namespace(
+            manifest=manifest_path,
+            source_dir=source_dir,
+            ready_dir=ready_dir,
+            validation_log_dir=None,
+            catalog=catalog_path,
+            audit=audit_path,
+            repository=DEFAULT_REPOSITORY,
+            release_tag="texture-catalog-2026-09-13",
+            batch_id="2026-09-13-001",
+            verified_at="2026-09-13T00:00:00Z",
+            expected_count=len(manifest),
+            write=False,
+        )
+
+    @staticmethod
+    def entry(slug: str, asset: str, source_split: dict | None = None) -> dict:
+        item = {
+            "slug": slug,
+            "sourceFile": "source.zip",
+            "assetName": asset,
+            "catalog": {
+                "id": slug,
+                "name": slug,
+                "gameTitle": slug,
+                "serials": ["SLUS-00594"],
+                "version": "1.0",
+                "authors": ["Test Author"],
+                "credits": "Test credits",
+                "description": "Test description",
+                "sourceUrl": "https://example.com/source",
+                "license": "CC0",
+            },
+        }
+        if source_split is not None:
+            item["sourceSplit"] = source_split
+        return item
+
+    def test_shared_source_requires_source_split(self):
+        with TemporaryDirectory() as directory:
+            args = self.build_args(
+                Path(directory),
+                [self.entry("pack-a", "pack-a.zip"), self.entry("pack-b", "pack-b.zip")],
+            )
+            with self.assertRaises(RegistrationError):
+                register_batch.register(args)
+
+    def test_shared_source_with_complete_parts_registers(self):
+        with TemporaryDirectory() as directory:
+            args = self.build_args(
+                Path(directory),
+                [
+                    self.entry("pack-a", "pack-a.zip", {"part": 1, "total": 2}),
+                    self.entry("pack-b", "pack-b.zip", {"part": 2, "total": 2}),
+                ],
+            )
+            catalog, audit = register_batch.register(args)
+            self.assertEqual(len(catalog["entries"]), 2)
+            self.assertEqual(
+                audit["batches"][0]["entries"][0]["sourceSplit"],
+                {"part": 1, "total": 2},
+            )
+
+    def test_shared_source_with_incomplete_parts_is_rejected(self):
+        with TemporaryDirectory() as directory:
+            args = self.build_args(
+                Path(directory),
+                [
+                    self.entry("pack-a", "pack-a.zip", {"part": 1, "total": 3}),
+                    self.entry("pack-b", "pack-b.zip", {"part": 2, "total": 3}),
+                ],
+            )
+            with self.assertRaises(RegistrationError):
+                register_batch.register(args)
+
+
 class RepositoryUrlTests(unittest.TestCase):
     def test_default_repository_targets_emucorer(self):
         self.assertEqual(DEFAULT_REPOSITORY, "sashkinbro/EmuCoreR-Textures")

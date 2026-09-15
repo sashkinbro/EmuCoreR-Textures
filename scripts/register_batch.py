@@ -200,6 +200,62 @@ def provenance_keys(
     }
 
 
+def validate_source_splits(manifest: list[Any]) -> dict[str, set[int]]:
+    """Allow one upstream artifact to feed several catalog entries.
+
+    Entries generated from a single upstream archive (for example the discs of
+    a multi-disc pack, or one pack that must be split to stay below the
+    50,000-file limit) may declare ``sourceSplit``. The declared parts must
+    cover every position of the declared total exactly once.
+    """
+    groups: dict[str, list[tuple[str, Any]]] = {}
+    for index, item in enumerate(manifest):
+        if not isinstance(item, dict):
+            continue
+        declared = item.get("sourceSha256")
+        if not isinstance(declared, str) or not declared.strip():
+            continue
+        slug = str(item.get("slug") or f"manifest[{index}]")
+        groups.setdefault(declared.strip().upper(), []).append((slug, item.get("sourceSplit")))
+    allowed: dict[str, set[int]] = {}
+    for sha, members in groups.items():
+        if len(members) == 1:
+            split = members[0][1]
+            if split is not None:
+                raise RegistrationError(
+                    f"sourceSplit is meaningless without a shared source: {members[0][0]}"
+                )
+            continue
+        totals: set[int] = set()
+        parts: list[int] = []
+        for slug, split in members:
+            if not isinstance(split, dict):
+                raise RegistrationError(
+                    f"shared source archive requires sourceSplit: {slug}"
+                )
+            part = split.get("part")
+            total = split.get("total")
+            if not isinstance(part, int) or isinstance(part, bool) or part < 1:
+                raise RegistrationError(f"sourceSplit.part must be a positive integer: {slug}")
+            if not isinstance(total, int) or isinstance(total, bool) or total < 2:
+                raise RegistrationError(f"sourceSplit.total must be at least 2: {slug}")
+            if part > total:
+                raise RegistrationError(f"sourceSplit.part exceeds total: {slug}")
+            totals.add(total)
+            parts.append(part)
+        if len(totals) != 1:
+            raise RegistrationError(
+                f"sourceSplit.total differs between entries sharing source {sha}"
+            )
+        total = totals.pop()
+        if len(parts) != total or sorted(parts) != list(range(1, total + 1)):
+            raise RegistrationError(
+                f"sourceSplit parts must cover 1..{total} exactly once for source {sha}"
+            )
+        allowed[sha] = set(parts)
+    return allowed
+
+
 def register(args: argparse.Namespace) -> tuple[dict[str, Any], dict[str, Any]]:
     catalog = load_json(args.catalog)
     audit = load_json(args.audit)
@@ -213,6 +269,24 @@ def register(args: argparse.Namespace) -> tuple[dict[str, Any], dict[str, Any]]:
     audit_batches = audit.get("batches")
     if not isinstance(catalog_entries, list) or not isinstance(audit_batches, list):
         raise RegistrationError("catalog or audit has an unsupported structure")
+    allowed_source_splits = validate_source_splits(manifest)
+    split_provenance: dict[str, set[tuple[str, str, str]]] = {}
+    for item in manifest:
+        if not isinstance(item, dict) or item.get("sourceSplit") is None:
+            continue
+        declared = item.get("sourceSha256")
+        catalog_fields = item.get("catalog")
+        if not isinstance(declared, str) or not isinstance(catalog_fields, dict):
+            continue
+        try:
+            keys = provenance_keys(
+                str(catalog_fields.get("sourceUrl", "")),
+                catalog_fields.get("serials"),
+                catalog_fields.get("authors"),
+            )
+        except RegistrationError:
+            continue
+        split_provenance.setdefault(declared.strip().upper(), set()).update(keys)
 
     existing_ids = {entry["id"] for entry in catalog_entries}
     existing_urls = {
@@ -282,9 +356,20 @@ def register(args: argparse.Namespace) -> tuple[dict[str, Any], dict[str, Any]]:
             catalog_fields.get("serials"),
             catalog_fields.get("authors"),
         )
+        source_split = item.get("sourceSplit")
+        declared_source = (
+            item.get("sourceSha256").strip().upper()
+            if isinstance(item.get("sourceSha256"), str)
+            else ""
+        )
         provenance_overlap = candidate_provenance & existing_provenance_keys
+        split_shared = (
+            source_split is not None
+            and declared_source in allowed_source_splits
+            and provenance_overlap <= split_provenance.get(declared_source, set())
+        )
         variant_evidence = item.get("sourceVariantEvidence")
-        if provenance_overlap and not variant_evidence:
+        if provenance_overlap and not variant_evidence and not split_shared:
             raise RegistrationError(
                 f"duplicate source/serial/author provenance: {catalog_id}; "
                 "provide sourceVariantEvidence only for a verified distinct variant"
@@ -335,7 +420,10 @@ def register(args: argparse.Namespace) -> tuple[dict[str, Any], dict[str, Any]]:
             raise RegistrationError(f"duplicate download URL: {duplicate_url}")
         if summary.sha256 in existing_archive_hashes:
             raise RegistrationError(f"duplicate normalized archive: {asset_name}")
-        if source_sha256 in existing_source_hashes:
+        if (
+            source_sha256 in existing_source_hashes
+            and source_sha256 not in allowed_source_splits
+        ):
             raise RegistrationError(f"duplicate source archive: {source_file}")
         if summary.manifestSha256 in existing_manifest_hashes:
             raise RegistrationError(f"duplicate normalized manifest: {asset_name}")
@@ -379,6 +467,7 @@ def register(args: argparse.Namespace) -> tuple[dict[str, Any], dict[str, Any]]:
                 "sourceSha256": source_sha256,
                 "assetName": asset_name,
                 **({"assetParts": asset_parts} if asset_parts else {}),
+                **({"sourceSplit": source_split} if source_split is not None else {}),
                 "normalizedSha256": summary.sha256,
                 "manifestSha256": summary.manifestSha256,
                 "contentSetSha256": summary.contentSetSha256,

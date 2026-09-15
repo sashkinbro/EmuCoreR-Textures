@@ -146,6 +146,7 @@ def main() -> None:
             if not isinstance(audit_entries, list) or not audit_entries:
                 errors.append(f"{batch_label}.entries must be a non-empty array")
                 continue
+            batch_source_splits: dict[str, list[tuple[str, object]]] = {}
             for audit_index, audit_entry in enumerate(audit_entries):
                 audit_label = f"{batch_label}.entries[{audit_index}]"
                 catalog_id = str(audit_entry.get("catalogId", ""))
@@ -195,6 +196,27 @@ def main() -> None:
                             f"{audit_label}.comparedAgainst references unknown id: "
                             f"{compared_id}"
                         )
+                source_sha = str(audit_entry.get("sourceSha256", "")).upper()
+                batch_source_splits.setdefault(source_sha, []).append(
+                    (audit_label, audit_entry.get("sourceSplit"))
+                )
+                source_split = audit_entry.get("sourceSplit")
+                if source_split is not None:
+                    if not isinstance(source_split, dict):
+                        errors.append(f"{audit_label}.sourceSplit must be an object")
+                    else:
+                        part = source_split.get("part")
+                        total = source_split.get("total")
+                        if not isinstance(part, int) or isinstance(part, bool) or part < 1:
+                            errors.append(f"{audit_label}.sourceSplit.part must be positive")
+                        if not isinstance(total, int) or isinstance(total, bool) or total < 2:
+                            errors.append(f"{audit_label}.sourceSplit.total must be at least 2")
+                        if (
+                            isinstance(part, int)
+                            and isinstance(total, int)
+                            and part > total
+                        ):
+                            errors.append(f"{audit_label}.sourceSplit.part exceeds total")
                 variant_evidence = audit_entry.get("sourceVariantEvidence", [])
                 if not isinstance(variant_evidence, list):
                     errors.append(f"{audit_label}.sourceVariantEvidence must be an array")
@@ -217,6 +239,32 @@ def main() -> None:
                     if evidence.get("relationToPublished") not in {"exact", "different"}:
                         errors.append(
                             f"{evidence_label}.relationToPublished must be exact or different"
+                        )
+            for source_sha, members in batch_source_splits.items():
+                if len(members) < 2:
+                    if members and members[0][1] is not None:
+                        errors.append(
+                            f"{members[0][0]}.sourceSplit is meaningless without a "
+                            "shared source"
+                        )
+                    continue
+                totals: set[int] = set()
+                parts: list[int] = []
+                for label, source_split in members:
+                    if not isinstance(source_split, dict):
+                        errors.append(f"{label}.sourceSplit is required for a shared source")
+                        continue
+                    part = source_split.get("part")
+                    total = source_split.get("total")
+                    if isinstance(part, int) and isinstance(total, int):
+                        totals.add(total)
+                        parts.append(part)
+                if len(totals) == 1:
+                    expected = totals.pop()
+                    if sorted(parts) != list(range(1, expected + 1)):
+                        errors.append(
+                            f"{batch_label}.sourceSplit parts do not cover 1..{expected} "
+                            f"for source {source_sha}"
                         )
     if errors:
         raise SystemExit("\n".join(errors))
