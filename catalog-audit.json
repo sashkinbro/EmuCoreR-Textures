@@ -130,6 +130,67 @@
           "comparedAgainst": []
         }
       ]
+    },
+    {
+      "id": "2026-09-15-001",
+      "verifiedAt": "2026-09-15T18:31:37Z",
+      "releaseTag": "texture-catalog-2026-09-13",
+      "entries": [
+        {
+          "catalogId": "curse-arms-akuji-the-heartless-slus-00715-20260913",
+          "sourceArtifact": "Akuji the Heartless by Curse_Arms",
+          "sourceSha256": "9F5964FF5B06283C1A6B0F1524641699D878547CA5B12F68565E8763ACB79F02",
+          "assetName": "curse-arms-akuji-the-heartless-slus-00715-20260913.zip",
+          "normalizedSha256": "468ED855523C9876EDBCE52532F8D804C3EECBF0D4342B1FEAFECB058011CB19",
+          "manifestSha256": "1D4AA05251B7F4DF4708DC8AB71752C73BA14321F6C7CD2191600FD63E6B2CAE",
+          "contentSetSha256": "261F6674F6DA61304FA1E367F3154EB118CCA02CFAD58A6103A0C927E3DEA2A4",
+          "comparedAgainst": []
+        },
+        {
+          "catalogId": "curse-arms-c-12-final-resistance-scus-94666-20260913",
+          "sourceArtifact": "C-12: Final Resistance by Curse_Arms",
+          "sourceSha256": "625CE22BB325AD95355432FB7C895A7D76566C0114E3C830475280541FD28E95",
+          "assetName": "curse-arms-c-12-final-resistance-scus-94666-20260913.zip",
+          "normalizedSha256": "66CF438F31AA87B993247EF3D2CD85ECB6E64E2B3F4423C417C172F4AD786F98",
+          "manifestSha256": "C468527A729ADA8C96086CD33A16E4823A6AEE5895285D205CED9C6C68246D42",
+          "contentSetSha256": "6BF92C625B58F07683E498FE4DFC5C70D26026F0BF65CA94188597A4396932B7",
+          "comparedAgainst": []
+        },
+        {
+          "catalogId": "curse-arms-legend-sles-00730-20260913",
+          "sourceArtifact": "Legend by Curse_Arms",
+          "sourceSha256": "D0189EFBC555340F75C47A8946C263189D3FC048A785E4FD5097C2E2F387D6A5",
+          "assetName": "curse-arms-legend-sles-00730-20260913.zip",
+          "normalizedSha256": "C62A870871A32841CE3B0BAFD74AADF062ECBA424EE9B7674A3484613CD31546",
+          "manifestSha256": "35E423E6E133ACF90C488A91F1432BC6ACF86C22650B39594F2C1929F6E5C35F",
+          "contentSetSha256": "AA54CCFCD636EA1C38C6B842ED45603B56EF78028A69E3EFFC56426327BF19A5",
+          "comparedAgainst": []
+        },
+        {
+          "catalogId": "curse-arms-vagrant-story-slus-01040-20260913",
+          "sourceArtifact": "Vagrant Story by Curse_Arms",
+          "sourceSha256": "4635FCC40E1D728E298EE70602353E30A05A0A4AD78391C8216B638CF6ABEABE",
+          "assetName": "curse-arms-vagrant-story-slus-01040-20260913.zip",
+          "normalizedSha256": "0C83ECE879BAB547E7B267D2D59E53CE2BB7CA8C236A4C8EC865960CCE0D001D",
+          "manifestSha256": "EB429BBADF97098E007705F32F70EC63283FE7AE53C2D46523D813006433B8C6",
+          "contentSetSha256": "CE2904440B23A9E0BE2A48D79D69BE542132B4685DD6D758E3C823F53B0E151F",
+          "comparedAgainst": []
+        },
+        {
+          "catalogId": "curse-arms-castlevania-symphony-of-the-night-slus-00067-20260913",
+          "sourceArtifact": "Castlevania: Symphony of the Night by Curse_Arms",
+          "sourceSha256": "0DF134D84B52721C9DE7138E558714E69F434F2396B06FD99A5E8835866867DA",
+          "assetName": "curse-arms-castlevania-symphony-of-the-night-slus-00067-20260913.zip",
+          "assetParts": [
+            "curse-arms-castlevania-symphony-of-the-night-slus-00067-20260913.zip.part001",
+            "curse-arms-castlevania-symphony-of-the-night-slus-00067-20260913.zip.part002"
+          ],
+          "normalizedSha256": "2099BD496BAC8A5F55134D95CAF105B72E6BD2F69A2039D6D4A4CA261ECA3D94",
+          "manifestSha256": "58A4B0A104FD553FCBC12CF3B3DA30D68482BBD1103BA2488326FD9EEA83D5EF",
+          "contentSetSha256": "4FD1403545E0EFD4E96895ED897919B74FF27462F6C7BEF5BA3DD55F0B4AA0A6",
+          "comparedAgainst": []
+        }
+      ]
     }
   ]
 }
