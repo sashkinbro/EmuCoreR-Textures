@@ -64,6 +64,14 @@ archive SHA-256, manifest fingerprint, and content-set fingerprint to
 `catalog-audit.json`. The catalog validator rejects repeated download URLs,
 archive digests, normalized manifests, and content sets.
 
+One upstream archive may legitimately feed several catalog entries: the discs
+of a multi-disc pack, or one pack split into ordered parts to stay below the
+50,000-file install limit. Such manifest entries declare
+`sourceSplit`: `{"part": N, "total": M}`. All parts must live in the same
+batch, cover `1..M` exactly once per shared source digest, and carry the
+source digest in `sourceSha256`. The registration and validation tools reject
+incomplete or inconsistent split groups.
+
 After all ten release assets have been uploaded and API-verified, a reviewed
 batch manifest can update the catalog and persistent audit ledger together:
 
