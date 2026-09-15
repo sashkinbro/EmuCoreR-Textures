@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-15T19:58:38Z",
+  "generatedAt": "2026-09-15T21:10:31Z",
   "entries": [
     {
       "id": "sombertwilight-silent-hill-slus-00707-20260913",
@@ -364,6 +364,416 @@
       "sizeBytes": 2001888147,
       "sha256": "5AA4939045E152207FF2CC1558CDBD6A786ECCF07E7317FE73C05B541E9686E8",
       "fileCount": 6061,
+      "previewUrls": []
+    },
+    {
+      "id": "curse-arms-resident-evil-2-dual-shock-ver-slus-00748-disc-1-leon-20260915-p1of2",
+      "name": "Resident Evil 2 (Dual Shock ver.) HD Texture Pack (Part 1 of 2)",
+      "gameTitle": "Resident Evil 2 (Dual Shock ver.)",
+      "serials": ["SLUS-00748"],
+      "version": "public release",
+      "authors": ["Curse_Arms"],
+      "credits": "HD texture pack created by Curse_Arms; normalized and repackaged by EmuCoreR with the original source and author attribution retained. All rights remain with the original creator.",
+      "description": "AI-upscaled replacement textures for Resident Evil 2 (Dual Shock ver.) (SLUS-00748). Two-disc pack; each disc installs into its own serial folder. Ordered part 1 of 2; install all parts into the same game folder.",
+      "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-resident-evil-2-dual-shock-ver-slus-00748-disc-1-leon-20260915-p1of2.zip",
+      "sourceUrl": "https://gbatemp.net/threads/resident-evil-2-duckstation-hd-textures.673541/",
+      "license": "See source page terms",
+      "sizeBytes": 1622033628,
+      "sha256": "C547D38C7A1C32A952EE10F6C72D68FBAC2437C963F2EE5918E6494FCB4994EE",
+      "fileCount": 2413,
+      "previewUrls": []
+    },
+    {
+      "id": "curse-arms-resident-evil-2-dual-shock-ver-slus-00756-disc-2-claire-20260915-p2of2",
+      "name": "Resident Evil 2 (Dual Shock ver.) HD Texture Pack (Part 2 of 2)",
+      "gameTitle": "Resident Evil 2 (Dual Shock ver.)",
+      "serials": ["SLUS-00756"],
+      "version": "public release",
+      "authors": ["Curse_Arms"],
+      "credits": "HD texture pack created by Curse_Arms; normalized and repackaged by EmuCoreR with the original source and author attribution retained. All rights remain with the original creator.",
+      "description": "AI-upscaled replacement textures for Resident Evil 2 (Dual Shock ver.) (SLUS-00756). Two-disc pack; each disc installs into its own serial folder. Ordered part 2 of 2; install all parts into the same game folder.",
+      "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-resident-evil-2-dual-shock-ver-slus-00756-disc-2-claire-20260915-p2of2.zip.part001",
+      "sourceUrl": "https://gbatemp.net/threads/resident-evil-2-duckstation-hd-textures.673541/",
+      "license": "See source page terms",
+      "sizeBytes": 2154621054,
+      "sha256": "E9E452BFF29C0BC8B3FB3489EB554FD1D04A5FBFCCA776774B0B887636C6F500",
+      "fileCount": 3263,
+      "previewUrls": [],
+      "parts": [
+        {
+          "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-resident-evil-2-dual-shock-ver-slus-00756-disc-2-claire-20260915-p2of2.zip.part001",
+          "sizeBytes": 1900000000,
+          "sha256": "4ADBC546F45A25A2277EC8288A5DBA57B6F481B2044DE1E7795FB898915E19CF"
+        },
+        {
+          "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-resident-evil-2-dual-shock-ver-slus-00756-disc-2-claire-20260915-p2of2.zip.part002",
+          "sizeBytes": 254621054,
+          "sha256": "164FC344AE6FB8B4A1BAEB0E69673576E68A277239EB660CD2666F7CB5CBB006"
+        }
+      ]
+    },
+    {
+      "id": "curse-arms-xenogears-slus-00664-20260915-p1of2",
+      "name": "Xenogears HD Texture Pack (Part 1 of 2)",
+      "gameTitle": "Xenogears",
+      "serials": ["SLUS-00664", "SLUS-00669"],
+      "version": "public release",
+      "authors": ["Curse_Arms"],
+      "credits": "HD texture pack created by Curse_Arms; normalized and repackaged by EmuCoreR with the original source and author attribution retained. All rights remain with the original creator.",
+      "description": "AI-upscaled replacement textures for Xenogears (SLUS-00664, SLUS-00669). Disc 1 uses SLUS-00664 and Disc 2 uses SLUS-00669; the same textures work for both discs. Ordered part 1 of 2; install all parts into the same game folder.",
+      "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-xenogears-slus-00664-20260915-p1of2.zip.part001",
+      "sourceUrl": "https://gbatemp.net/threads/xenogears-duckstation-hd-textures.671735/",
+      "license": "See source page terms",
+      "sizeBytes": 3667653134,
+      "sha256": "B00BCEC939E71FF32CAD40D712EF38A5646EBC3D2B7804C680CDDCA634CA6C49",
+      "fileCount": 45000,
+      "previewUrls": [],
+      "parts": [
+        {
+          "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-xenogears-slus-00664-20260915-p1of2.zip.part001",
+          "sizeBytes": 1900000000,
+          "sha256": "9A63190AFBFC168916F9EEBE44F68DC3A282F495A8CF81D6283655410AC9C794"
+        },
+        {
+          "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-xenogears-slus-00664-20260915-p1of2.zip.part002",
+          "sizeBytes": 1767653134,
+          "sha256": "D7BFA214782E3DF3732BF112DEA0A61C046A9F4AC09332523C1528D3D5E50235"
+        }
+      ]
+    },
+    {
+      "id": "curse-arms-xenogears-slus-00664-20260915-p2of2",
+      "name": "Xenogears HD Texture Pack (Part 2 of 2)",
+      "gameTitle": "Xenogears",
+      "serials": ["SLUS-00664", "SLUS-00669"],
+      "version": "public release",
+      "authors": ["Curse_Arms"],
+      "credits": "HD texture pack created by Curse_Arms; normalized and repackaged by EmuCoreR with the original source and author attribution retained. All rights remain with the original creator.",
+      "description": "AI-upscaled replacement textures for Xenogears (SLUS-00664, SLUS-00669). Disc 1 uses SLUS-00664 and Disc 2 uses SLUS-00669; the same textures work for both discs. Ordered part 2 of 2; install all parts into the same game folder.",
+      "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-xenogears-slus-00664-20260915-p2of2.zip.part001",
+      "sourceUrl": "https://gbatemp.net/threads/xenogears-duckstation-hd-textures.671735/",
+      "license": "See source page terms",
+      "sizeBytes": 4936677891,
+      "sha256": "D2881E5777F4AE1DE99E13A034E54836283876C161752F0675E1CE1F01E5AC66",
+      "fileCount": 43390,
+      "previewUrls": [],
+      "parts": [
+        {
+          "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-xenogears-slus-00664-20260915-p2of2.zip.part001",
+          "sizeBytes": 1900000000,
+          "sha256": "BB4D9930B7B1EEAA9356D2B4417DF9A71DF654A756E73D598E201B983E160EC2"
+        },
+        {
+          "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-xenogears-slus-00664-20260915-p2of2.zip.part002",
+          "sizeBytes": 1900000000,
+          "sha256": "0A79E0D3863FB82318A1A742159635A02747CF3B20BB0F8E8B29136F8260630F"
+        },
+        {
+          "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-xenogears-slus-00664-20260915-p2of2.zip.part003",
+          "sizeBytes": 1136677891,
+          "sha256": "0D76542E7C6669BF6380B4CD881FB00FDAB399CFEB6036DEC871251BA7151192"
+        }
+      ]
+    },
+    {
+      "id": "icebullet-dino-crisis-slus-00922-20260915",
+      "name": "Dino Crisis HD Texture Pack",
+      "gameTitle": "Dino Crisis",
+      "serials": ["SLUS-00922"],
+      "version": "public release",
+      "authors": ["IceBullet"],
+      "credits": "HD texture pack created by IceBullet; normalized and repackaged by EmuCoreR with the original source and author attribution retained. All rights remain with the original creator.",
+      "description": "AI-upscaled replacement textures for Dino Crisis (SLUS-00922).",
+      "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/icebullet-dino-crisis-slus-00922-20260915.zip",
+      "sourceUrl": "https://archive.org/details/textures_duckstation",
+      "license": "See source page terms",
+      "sizeBytes": 949072622,
+      "sha256": "EE3FFCC72EF6E5E284C6AD08A00A242A82F848DF8E62DA7DB6EA3E8C9544829E",
+      "fileCount": 2250,
+      "previewUrls": []
+    },
+    {
+      "id": "curse-arms-castlevania-chronicles-slus-01384-20260915",
+      "name": "Castlevania: Chronicles HD Texture Pack",
+      "gameTitle": "Castlevania: Chronicles",
+      "serials": ["SLUS-01384"],
+      "version": "public release",
+      "authors": ["Curse_Arms"],
+      "credits": "HD texture pack created by Curse_Arms; normalized and repackaged by EmuCoreR with the original source and author attribution retained. All rights remain with the original creator.",
+      "description": "AI-upscaled replacement textures for Castlevania: Chronicles (SLUS-01384).",
+      "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-castlevania-chronicles-slus-01384-20260915.zip",
+      "sourceUrl": "https://gbatemp.net/threads/my-hd-remaster-pack.630347/",
+      "license": "See source page terms",
+      "sizeBytes": 378021690,
+      "sha256": "37BE32A175DD967EAB1E7D4129A6DB51CF0F42D2A2F8AEF41EEBD6BBDBEF6870",
+      "fileCount": 9171,
+      "previewUrls": []
+    },
+    {
+      "id": "curse-arms-chrono-cross-slus-01041-20260915",
+      "name": "Chrono Cross HD Texture Pack",
+      "gameTitle": "Chrono Cross",
+      "serials": ["SLUS-01041"],
+      "version": "public release",
+      "authors": ["Curse_Arms"],
+      "credits": "HD texture pack created by Curse_Arms; normalized and repackaged by EmuCoreR with the original source and author attribution retained. All rights remain with the original creator.",
+      "description": "AI-upscaled replacement textures for Chrono Cross (SLUS-01041).",
+      "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-chrono-cross-slus-01041-20260915.zip.part001",
+      "sourceUrl": "https://gbatemp.net/threads/chrono-cross-duckstation-hd-textures.675030/",
+      "license": "See source page terms",
+      "sizeBytes": 4941703034,
+      "sha256": "0883608DD8EFD57E0B15ED35EABCF2355E169F1CB60EB48E356ECCED9CC91AE9",
+      "fileCount": 10957,
+      "previewUrls": [],
+      "parts": [
+        {
+          "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-chrono-cross-slus-01041-20260915.zip.part001",
+          "sizeBytes": 1900000000,
+          "sha256": "966F86C59F20BBA731CF2801738812FFC6B77914A13D271ED0D3B0BE167823BE"
+        },
+        {
+          "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-chrono-cross-slus-01041-20260915.zip.part002",
+          "sizeBytes": 1900000000,
+          "sha256": "6BCA5D2B3FCC298DF28E0DC81BFD7B9BC368A4FA214D10C31E3BD65F86E512CA"
+        },
+        {
+          "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-chrono-cross-slus-01041-20260915.zip.part003",
+          "sizeBytes": 1141703034,
+          "sha256": "35DC33FF9D0828DA18CD81B72591386C87CD02977FCBEEF88AE9E15741DE9A9D"
+        }
+      ]
+    },
+    {
+      "id": "curse-arms-clock-tower-ii-the-struggle-within-slus-00695-20260915",
+      "name": "Clock Tower II: The Struggle Within HD Texture Pack",
+      "gameTitle": "Clock Tower II: The Struggle Within",
+      "serials": ["SLUS-00695"],
+      "version": "public release",
+      "authors": ["Curse_Arms"],
+      "credits": "HD texture pack created by Curse_Arms; normalized and repackaged by EmuCoreR with the original source and author attribution retained. All rights remain with the original creator.",
+      "description": "AI-upscaled replacement textures for Clock Tower II: The Struggle Within (SLUS-00695).",
+      "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-clock-tower-ii-the-struggle-within-slus-00695-20260915.zip",
+      "sourceUrl": "https://gbatemp.net/threads/clock-tower-ii-the-struggle-within-duckstation-hd-textures.670538/",
+      "license": "See source page terms",
+      "sizeBytes": 285010823,
+      "sha256": "5018A9BF588FD7A473C344D2CD83CDE187E553958DE9CCC9F3C44BE43D293852",
+      "fileCount": 5300,
+      "previewUrls": []
+    },
+    {
+      "id": "curse-arms-final-fantasy-viii-slus-00892-20260915",
+      "name": "Final Fantasy VIII HD Texture Pack",
+      "gameTitle": "Final Fantasy VIII",
+      "serials": ["SLUS-00892"],
+      "version": "public release",
+      "authors": ["Curse_Arms"],
+      "credits": "HD texture pack created by Curse_Arms; normalized and repackaged by EmuCoreR with the original source and author attribution retained. All rights remain with the original creator.",
+      "description": "AI-upscaled replacement textures for Final Fantasy VIII (SLUS-00892).",
+      "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-final-fantasy-viii-slus-00892-20260915.zip.part001",
+      "sourceUrl": "https://gbatemp.net/threads/my-hd-remaster-pack.630347/",
+      "license": "See source page terms",
+      "sizeBytes": 6472042320,
+      "sha256": "9AA939D2B65F5CC67613B6E24FFE86989DFC677328043285ADB11204C4D9E330",
+      "fileCount": 36031,
+      "previewUrls": [],
+      "parts": [
+        {
+          "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-final-fantasy-viii-slus-00892-20260915.zip.part001",
+          "sizeBytes": 1900000000,
+          "sha256": "F54848D6B7A96B6F7D6ED32A80AC8E45A26F0990DABC9312C6726F419A888DF4"
+        },
+        {
+          "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-final-fantasy-viii-slus-00892-20260915.zip.part002",
+          "sizeBytes": 1900000000,
+          "sha256": "B52ED5DCDCC749C6A65CB9DAA65452F093A84ABACC02F8379185FDE133CA6C1B"
+        },
+        {
+          "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-final-fantasy-viii-slus-00892-20260915.zip.part003",
+          "sizeBytes": 1900000000,
+          "sha256": "1B990BEC3D7E7378DED2256C0A4DA6BB2CD21B6CD52BEC59DCB0EBA60F3FC44C"
+        },
+        {
+          "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-final-fantasy-viii-slus-00892-20260915.zip.part004",
+          "sizeBytes": 772042320,
+          "sha256": "7DB69FF27010DCF08D56DA0C216CA8E565AB8124021F614DDFFBF1B907585583"
+        }
+      ]
+    },
+    {
+      "id": "curse-arms-ninja-shadow-of-darkness-slus-00435-20260915",
+      "name": "Ninja: Shadow of Darkness HD Texture Pack",
+      "gameTitle": "Ninja: Shadow of Darkness",
+      "serials": ["SLUS-00435"],
+      "version": "public release",
+      "authors": ["Curse_Arms"],
+      "credits": "HD texture pack created by Curse_Arms; normalized and repackaged by EmuCoreR with the original source and author attribution retained. All rights remain with the original creator.",
+      "description": "AI-upscaled replacement textures for Ninja: Shadow of Darkness (SLUS-00435).",
+      "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-ninja-shadow-of-darkness-slus-00435-20260915.zip",
+      "sourceUrl": "https://gbatemp.net/threads/ninja-shadow-of-darkness-duckstation-hd-textures.672022/",
+      "license": "See source page terms",
+      "sizeBytes": 449877937,
+      "sha256": "1322A04D381DEC5F770CE1DA71B022735D683FFFB168690FB47393756881E22E",
+      "fileCount": 11211,
+      "previewUrls": []
+    },
+    {
+      "id": "curse-arms-persona-2-eternal-punishment-slus-01158-20260915",
+      "name": "Persona 2: Eternal Punishment HD Texture Pack",
+      "gameTitle": "Persona 2: Eternal Punishment",
+      "serials": ["SLUS-01158"],
+      "version": "public release",
+      "authors": ["Curse_Arms"],
+      "credits": "HD texture pack created by Curse_Arms; normalized and repackaged by EmuCoreR with the original source and author attribution retained. All rights remain with the original creator.",
+      "description": "AI-upscaled replacement textures for Persona 2: Eternal Punishment (SLUS-01158).",
+      "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-persona-2-eternal-punishment-slus-01158-20260915.zip.part001",
+      "sourceUrl": "https://gbatemp.net/threads/my-hd-remaster-packs.630347/",
+      "license": "See source page terms",
+      "sizeBytes": 2439832254,
+      "sha256": "E660F9ACFAA9FDD17F3E0C4B2629D2B8E3BC6920DB4B365A7B9F671D14F4D1CC",
+      "fileCount": 9884,
+      "previewUrls": [],
+      "parts": [
+        {
+          "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-persona-2-eternal-punishment-slus-01158-20260915.zip.part001",
+          "sizeBytes": 1900000000,
+          "sha256": "546D14DADACDBD182344FD61B986528590DA990D804DC1EABE527D891F95FC86"
+        },
+        {
+          "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-persona-2-eternal-punishment-slus-01158-20260915.zip.part002",
+          "sizeBytes": 539832254,
+          "sha256": "BF7CEAD005E26F73E8D9C294A2E3F6D39EE457527085B10D8BE539BE965DBB11"
+        }
+      ]
+    },
+    {
+      "id": "curse-arms-silent-hill-slus-00707-20260915",
+      "name": "Silent Hill HD Texture Pack",
+      "gameTitle": "Silent Hill",
+      "serials": ["SLUS-00707"],
+      "version": "public release",
+      "authors": ["Curse_Arms"],
+      "credits": "HD texture pack created by Curse_Arms; normalized and repackaged by EmuCoreR with the original source and author attribution retained. All rights remain with the original creator.",
+      "description": "AI-upscaled replacement textures for Silent Hill (SLUS-00707).",
+      "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-silent-hill-slus-00707-20260915.zip",
+      "sourceUrl": "https://gbatemp.net/threads/silent-hill-duckstation-hd-textures-2-0.672174/",
+      "license": "See source page terms",
+      "sizeBytes": 1803834338,
+      "sha256": "E7AAF50D17661B439DAA645B0D04106BDB24A0279442AE7D6D6D0E46DF16A49A",
+      "fileCount": 11019,
+      "previewUrls": []
+    },
+    {
+      "id": "curse-arms-strider-2-slus-01163-20260915-p1of2",
+      "name": "Strider 2 HD Texture Pack (Part 1 of 2)",
+      "gameTitle": "Strider 2",
+      "serials": ["SLUS-01163"],
+      "version": "public release",
+      "authors": ["Curse_Arms"],
+      "credits": "HD texture pack created by Curse_Arms; normalized and repackaged by EmuCoreR with the original source and author attribution retained. All rights remain with the original creator.",
+      "description": "AI-upscaled replacement textures for Strider 2 (SLUS-01163). Ordered part 1 of 2; install all parts into the same game folder.",
+      "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-strider-2-slus-01163-20260915-p1of2.zip.part001",
+      "sourceUrl": "https://gbatemp.net/threads/strider-2-duckstation-hd-textures.671914/",
+      "license": "See source page terms",
+      "sizeBytes": 3237265271,
+      "sha256": "15F23FD324BC7A567DC1D9848524DFCEC58AFF6AF2C1C1C8597E046A524FCBFC",
+      "fileCount": 45000,
+      "previewUrls": [],
+      "parts": [
+        {
+          "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-strider-2-slus-01163-20260915-p1of2.zip.part001",
+          "sizeBytes": 1900000000,
+          "sha256": "F65F2FC3E0457A8960236DB915F80D9ACEB583894297263C5484DF7D86DFE8E6"
+        },
+        {
+          "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-strider-2-slus-01163-20260915-p1of2.zip.part002",
+          "sizeBytes": 1337265271,
+          "sha256": "9C24EDF700C967E9DE6663331436A7E150998AC082B6390C2C15C3266212B97F"
+        }
+      ]
+    },
+    {
+      "id": "curse-arms-strider-2-slus-01163-20260915-p2of2",
+      "name": "Strider 2 HD Texture Pack (Part 2 of 2)",
+      "gameTitle": "Strider 2",
+      "serials": ["SLUS-01163"],
+      "version": "public release",
+      "authors": ["Curse_Arms"],
+      "credits": "HD texture pack created by Curse_Arms; normalized and repackaged by EmuCoreR with the original source and author attribution retained. All rights remain with the original creator.",
+      "description": "AI-upscaled replacement textures for Strider 2 (SLUS-01163). Ordered part 2 of 2; install all parts into the same game folder.",
+      "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-strider-2-slus-01163-20260915-p2of2.zip",
+      "sourceUrl": "https://gbatemp.net/threads/strider-2-duckstation-hd-textures.671914/",
+      "license": "See source page terms",
+      "sizeBytes": 1835256851,
+      "sha256": "0E9B2BC715798898A6C549967285C63076F195BCE962ABA30A3D237D6ABBEC90",
+      "fileCount": 33095,
+      "previewUrls": []
+    },
+    {
+      "id": "crazy-ivan-resident-evil-director-s-cut-slus-00551-20260915",
+      "name": "Resident Evil: Director's Cut HD Texture Pack",
+      "gameTitle": "Resident Evil: Director's Cut",
+      "serials": ["SLUS-00551"],
+      "version": "public release",
+      "authors": ["Crazy Ivan"],
+      "credits": "HD texture pack created by Crazy Ivan; normalized and repackaged by EmuCoreR with the original source and author attribution retained. All rights remain with the original creator.",
+      "description": "AI-upscaled replacement textures for Resident Evil: Director's Cut (SLUS-00551).",
+      "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/crazy-ivan-resident-evil-director-s-cut-slus-00551-20260915.zip",
+      "sourceUrl": "https://archive.org/details/textures_duckstation",
+      "license": "See source page terms",
+      "sizeBytes": 1935925110,
+      "sha256": "65480F0E9CA50AD4A975E764B9E78F2F095B33CDB91828C61A8EEA24FE103AC5",
+      "fileCount": 629,
+      "previewUrls": []
+    },
+    {
+      "id": "bussareas-spider-man-2-enter-electro-slus-01378-20260915",
+      "name": "Spider-Man 2: Enter Electro HD Texture Pack",
+      "gameTitle": "Spider-Man 2: Enter Electro",
+      "serials": ["SLUS-01378"],
+      "version": "public release",
+      "authors": ["Bussareas"],
+      "credits": "HD texture pack created by Bussareas; normalized and repackaged by EmuCoreR with the original source and author attribution retained. All rights remain with the original creator.",
+      "description": "AI-upscaled replacement textures for Spider-Man 2: Enter Electro (SLUS-01378).",
+      "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/bussareas-spider-man-2-enter-electro-slus-01378-20260915.zip",
+      "sourceUrl": "https://gbatemp.net/threads/psx-spider-man-2-enter-electro-ntsc-u-texture-pack-for-duckstation.684128/",
+      "license": "See source page terms",
+      "sizeBytes": 863588482,
+      "sha256": "02D74CD1824C6870413959F7BFEF6596E21FE7F0A8B64B80E87AB1654A0CFC39",
+      "fileCount": 2344,
+      "previewUrls": []
+    },
+    {
+      "id": "curse-arms-street-fighter-ex-plus-alpha-slus-00548-20260915",
+      "name": "Street Fighter EX Plus Alpha HD Texture Pack",
+      "gameTitle": "Street Fighter EX Plus Alpha",
+      "serials": ["SLUS-00548"],
+      "version": "public release",
+      "authors": ["Curse_Arms"],
+      "credits": "HD texture pack created by Curse_Arms; normalized and repackaged by EmuCoreR with the original source and author attribution retained. All rights remain with the original creator.",
+      "description": "AI-upscaled replacement textures for Street Fighter EX Plus Alpha (SLUS-00548).",
+      "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-street-fighter-ex-plus-alpha-slus-00548-20260915.zip",
+      "sourceUrl": "https://gbatemp.net/threads/street-fighter-ex-plus-alpha-duckstation-hd-textures.674905/",
+      "license": "See source page terms",
+      "sizeBytes": 232953156,
+      "sha256": "17A99F04D61BA4DF6F5E0D1E963CF56E1B2C78C9FD215F548FD1F07980B065AC",
+      "fileCount": 2084,
+      "previewUrls": []
+    },
+    {
+      "id": "curse-arms-einhander-scus-94243-20260915",
+      "name": "Einhänder HD Texture Pack",
+      "gameTitle": "Einhänder",
+      "serials": ["SCUS-94243"],
+      "version": "public release",
+      "authors": ["Curse_Arms"],
+      "credits": "HD texture pack created by Curse_Arms; normalized and repackaged by EmuCoreR with the original source and author attribution retained. All rights remain with the original creator.",
+      "description": "AI-upscaled replacement textures for Einhänder (SCUS-94243).",
+      "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-einhander-scus-94243-20260915.zip",
+      "sourceUrl": "https://gbatemp.net/threads/my-hd-remaster-pack.630347/",
+      "license": "See source page terms",
+      "sizeBytes": 249484796,
+      "sha256": "C41432665FE402A5FF48BB65E5B7809C39F20CEC036192215FAAE13AC99BB51E",
+      "fileCount": 1820,
       "previewUrls": []
     }
   ]

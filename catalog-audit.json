@@ -238,6 +238,249 @@
           "comparedAgainst": []
         }
       ]
+    },
+    {
+      "id": "2026-09-15-004",
+      "verifiedAt": "2026-09-15T21:10:31Z",
+      "releaseTag": "texture-catalog-2026-09-13",
+      "entries": [
+        {
+          "catalogId": "curse-arms-resident-evil-2-dual-shock-ver-slus-00748-disc-1-leon-20260915-p1of2",
+          "sourceArtifact": "Resident Evil 2 (Dual Shock ver.) by Curse_Arms",
+          "sourceSha256": "8D0742167CEEC60F50FB335624C919F844D53604244A2B485F2173958C15145F",
+          "assetName": "curse-arms-resident-evil-2-dual-shock-ver-slus-00748-disc-1-leon-20260915-p1of2.zip",
+          "sourceSplit": {
+            "part": 1,
+            "total": 2
+          },
+          "normalizedSha256": "C547D38C7A1C32A952EE10F6C72D68FBAC2437C963F2EE5918E6494FCB4994EE",
+          "manifestSha256": "6659E6B85631840D120B69FB1ACDB4D301CB5782C5B1E8905744352E1129E01C",
+          "contentSetSha256": "4471BEDB5E09B6D5E5D61B573AF8ABE92DF09F16045B60DFD81A3D2D0EB8B72A",
+          "comparedAgainst": []
+        },
+        {
+          "catalogId": "curse-arms-resident-evil-2-dual-shock-ver-slus-00756-disc-2-claire-20260915-p2of2",
+          "sourceArtifact": "Resident Evil 2 (Dual Shock ver.) by Curse_Arms",
+          "sourceSha256": "8D0742167CEEC60F50FB335624C919F844D53604244A2B485F2173958C15145F",
+          "assetName": "curse-arms-resident-evil-2-dual-shock-ver-slus-00756-disc-2-claire-20260915-p2of2.zip",
+          "assetParts": [
+            "curse-arms-resident-evil-2-dual-shock-ver-slus-00756-disc-2-claire-20260915-p2of2.zip.part001",
+            "curse-arms-resident-evil-2-dual-shock-ver-slus-00756-disc-2-claire-20260915-p2of2.zip.part002"
+          ],
+          "sourceSplit": {
+            "part": 2,
+            "total": 2
+          },
+          "normalizedSha256": "E9E452BFF29C0BC8B3FB3489EB554FD1D04A5FBFCCA776774B0B887636C6F500",
+          "manifestSha256": "C28EF73FF7615F5348D30769E08619AE633EC4466E57F56CE81A76A75F4037AB",
+          "contentSetSha256": "D9AAC2D89029CF4AAF7936FD3966F42A6164846BDC61A2E690C628E106AC24CF",
+          "comparedAgainst": []
+        },
+        {
+          "catalogId": "curse-arms-xenogears-slus-00664-20260915-p1of2",
+          "sourceArtifact": "Xenogears by Curse_Arms",
+          "sourceSha256": "5416B82608C4622F285CF3E1A7C43C4B7A2A23DE9634167FE985576C125B6E8F",
+          "assetName": "curse-arms-xenogears-slus-00664-20260915-p1of2.zip",
+          "assetParts": [
+            "curse-arms-xenogears-slus-00664-20260915-p1of2.zip.part001",
+            "curse-arms-xenogears-slus-00664-20260915-p1of2.zip.part002"
+          ],
+          "sourceSplit": {
+            "part": 1,
+            "total": 2
+          },
+          "normalizedSha256": "B00BCEC939E71FF32CAD40D712EF38A5646EBC3D2B7804C680CDDCA634CA6C49",
+          "manifestSha256": "9A602C9C63EC2B37C6C42508022E15D2EBF9884BFD4A2A015709F106A9D3CA13",
+          "contentSetSha256": "EEE45F79BDA8BB85F6F8213CDCF442F9A0C78878D333659E7D28BAD55C90F6E0",
+          "comparedAgainst": []
+        },
+        {
+          "catalogId": "curse-arms-xenogears-slus-00664-20260915-p2of2",
+          "sourceArtifact": "Xenogears by Curse_Arms",
+          "sourceSha256": "5416B82608C4622F285CF3E1A7C43C4B7A2A23DE9634167FE985576C125B6E8F",
+          "assetName": "curse-arms-xenogears-slus-00664-20260915-p2of2.zip",
+          "assetParts": [
+            "curse-arms-xenogears-slus-00664-20260915-p2of2.zip.part001",
+            "curse-arms-xenogears-slus-00664-20260915-p2of2.zip.part002",
+            "curse-arms-xenogears-slus-00664-20260915-p2of2.zip.part003"
+          ],
+          "sourceSplit": {
+            "part": 2,
+            "total": 2
+          },
+          "normalizedSha256": "D2881E5777F4AE1DE99E13A034E54836283876C161752F0675E1CE1F01E5AC66",
+          "manifestSha256": "DDF66C275243329E2F7BD7D00C6B52823BC79400C185F8F6D6539F67F8665744",
+          "contentSetSha256": "678573127428928B1768030387E40E444C9B9E2FF07CF1207EB50E86EF996954",
+          "comparedAgainst": []
+        },
+        {
+          "catalogId": "icebullet-dino-crisis-slus-00922-20260915",
+          "sourceArtifact": "Dino Crisis by IceBullet",
+          "sourceSha256": "1F9EBD32A0AC394973068DB50AED6B9A0FD0BF5AA72332C6F90E4567C87ED531",
+          "assetName": "icebullet-dino-crisis-slus-00922-20260915.zip",
+          "normalizedSha256": "EE3FFCC72EF6E5E284C6AD08A00A242A82F848DF8E62DA7DB6EA3E8C9544829E",
+          "manifestSha256": "C5AF660AB4D83A464E65D070D08B4FAD760F0199B9CC1EF0DD6C00356D3EBC30",
+          "contentSetSha256": "D234D6A5ABEE0B095663C643E2BDE777A1CB62B6FA18820F3EDDC711A14B6A9F",
+          "comparedAgainst": []
+        },
+        {
+          "catalogId": "curse-arms-castlevania-chronicles-slus-01384-20260915",
+          "sourceArtifact": "Castlevania: Chronicles by Curse_Arms",
+          "sourceSha256": "151913CC7165037F4447B2E7FD5570F3C44465D00E3D2F306375DDA92EA3959C",
+          "assetName": "curse-arms-castlevania-chronicles-slus-01384-20260915.zip",
+          "normalizedSha256": "37BE32A175DD967EAB1E7D4129A6DB51CF0F42D2A2F8AEF41EEBD6BBDBEF6870",
+          "manifestSha256": "4F9510A49FC30B297358063D69F2ECE79A5D5E54D2C72694C061B2BBBE796A0A",
+          "contentSetSha256": "D912663373256EFC6D59E6228EA8FB9AB93BD8E5E514EA3733F49740A36FB0B8",
+          "comparedAgainst": []
+        },
+        {
+          "catalogId": "curse-arms-chrono-cross-slus-01041-20260915",
+          "sourceArtifact": "Chrono Cross by Curse_Arms",
+          "sourceSha256": "05109D07D5BD22D62394FB772F4606805B499AED4A2029226A19099527EB93A1",
+          "assetName": "curse-arms-chrono-cross-slus-01041-20260915.zip",
+          "assetParts": [
+            "curse-arms-chrono-cross-slus-01041-20260915.zip.part001",
+            "curse-arms-chrono-cross-slus-01041-20260915.zip.part002",
+            "curse-arms-chrono-cross-slus-01041-20260915.zip.part003"
+          ],
+          "normalizedSha256": "0883608DD8EFD57E0B15ED35EABCF2355E169F1CB60EB48E356ECCED9CC91AE9",
+          "manifestSha256": "5D1EB0CE643F008ADBE1BBC3E5AE8318625B9C2DA37980F737E81C035967B125",
+          "contentSetSha256": "0DC42F082B4E61AEA60DB778A32D77829386052A3A71A4712A5F206D0C18CAF8",
+          "comparedAgainst": []
+        },
+        {
+          "catalogId": "curse-arms-clock-tower-ii-the-struggle-within-slus-00695-20260915",
+          "sourceArtifact": "Clock Tower II: The Struggle Within by Curse_Arms",
+          "sourceSha256": "69F68FEB43A7B77FB0115A7EB0732AE3CB750CBA4074726C167562A38AD7BC40",
+          "assetName": "curse-arms-clock-tower-ii-the-struggle-within-slus-00695-20260915.zip",
+          "normalizedSha256": "5018A9BF588FD7A473C344D2CD83CDE187E553958DE9CCC9F3C44BE43D293852",
+          "manifestSha256": "24C1457D558DFB9909FB25D576D1BAB86F89779CA46339F61F8E1677BBD17A3E",
+          "contentSetSha256": "3FCB40898CA7D431F2174564DC52BF9602DFA45346DEE67622A1E5E7865E9D06",
+          "comparedAgainst": []
+        },
+        {
+          "catalogId": "curse-arms-final-fantasy-viii-slus-00892-20260915",
+          "sourceArtifact": "Final Fantasy VIII by Curse_Arms",
+          "sourceSha256": "7FE856A928112756CBE5B424109EE550CF3485F5F8904E705C9BD4603AAEB536",
+          "assetName": "curse-arms-final-fantasy-viii-slus-00892-20260915.zip",
+          "assetParts": [
+            "curse-arms-final-fantasy-viii-slus-00892-20260915.zip.part001",
+            "curse-arms-final-fantasy-viii-slus-00892-20260915.zip.part002",
+            "curse-arms-final-fantasy-viii-slus-00892-20260915.zip.part003",
+            "curse-arms-final-fantasy-viii-slus-00892-20260915.zip.part004"
+          ],
+          "normalizedSha256": "9AA939D2B65F5CC67613B6E24FFE86989DFC677328043285ADB11204C4D9E330",
+          "manifestSha256": "14E20A8DA38D81EE3E5183323612B8D199A844C3F46EA73128D2B081F95069C1",
+          "contentSetSha256": "7320CE88C05AEF94FB8503B83C64C5ED297FAFA18BB70DD753E6503F4215E2BE",
+          "comparedAgainst": []
+        },
+        {
+          "catalogId": "curse-arms-ninja-shadow-of-darkness-slus-00435-20260915",
+          "sourceArtifact": "Ninja: Shadow of Darkness by Curse_Arms",
+          "sourceSha256": "67800EF2FE28DA98132EA4AD59F9A900E17C7940655EEFFF0325E83F40490940",
+          "assetName": "curse-arms-ninja-shadow-of-darkness-slus-00435-20260915.zip",
+          "normalizedSha256": "1322A04D381DEC5F770CE1DA71B022735D683FFFB168690FB47393756881E22E",
+          "manifestSha256": "776466F921BE2D792A17C0D6777802969668B516EEB1B5A806D81A82DC71201F",
+          "contentSetSha256": "849768982EAD0F8EBA1A109021937B8A42F3AAAED6606F4582A7459006299CF1",
+          "comparedAgainst": []
+        },
+        {
+          "catalogId": "curse-arms-persona-2-eternal-punishment-slus-01158-20260915",
+          "sourceArtifact": "Persona 2: Eternal Punishment by Curse_Arms",
+          "sourceSha256": "6ACF9587383A327D982A03E999A5676AA240B51109D6D4AACDE36329FB65516A",
+          "assetName": "curse-arms-persona-2-eternal-punishment-slus-01158-20260915.zip",
+          "assetParts": [
+            "curse-arms-persona-2-eternal-punishment-slus-01158-20260915.zip.part001",
+            "curse-arms-persona-2-eternal-punishment-slus-01158-20260915.zip.part002"
+          ],
+          "normalizedSha256": "E660F9ACFAA9FDD17F3E0C4B2629D2B8E3BC6920DB4B365A7B9F671D14F4D1CC",
+          "manifestSha256": "3D0567CF65836A525B1C644A069BE59E10AB834E1417EFBA4FE5B3A36B3E727E",
+          "contentSetSha256": "9EDCC3143FE225DD8C4A99B243E975AB674E5D590E56BA2AE6A5615E99602ADC",
+          "comparedAgainst": []
+        },
+        {
+          "catalogId": "curse-arms-silent-hill-slus-00707-20260915",
+          "sourceArtifact": "Silent Hill by Curse_Arms",
+          "sourceSha256": "FAD5E45D7C2CAEF1A20C47E09E61D8777BBEEE80B740EF8B17D5E2539D34F4BC",
+          "assetName": "curse-arms-silent-hill-slus-00707-20260915.zip",
+          "normalizedSha256": "E7AAF50D17661B439DAA645B0D04106BDB24A0279442AE7D6D6D0E46DF16A49A",
+          "manifestSha256": "FDC22877586C0C40318DCF16A8DCD6911A732475B4FFAFB8E93E5CFEFAD9F748",
+          "contentSetSha256": "692487159EB6336E910E7AE699AA5682479C756D23BBADA4AC040841CF0F4E8A",
+          "comparedAgainst": []
+        },
+        {
+          "catalogId": "curse-arms-strider-2-slus-01163-20260915-p1of2",
+          "sourceArtifact": "Strider 2 by Curse_Arms",
+          "sourceSha256": "8CC9096818BC343BA107E3733B48D42C6E9BC3A49512FD4409E05F6C854B56F8",
+          "assetName": "curse-arms-strider-2-slus-01163-20260915-p1of2.zip",
+          "assetParts": [
+            "curse-arms-strider-2-slus-01163-20260915-p1of2.zip.part001",
+            "curse-arms-strider-2-slus-01163-20260915-p1of2.zip.part002"
+          ],
+          "sourceSplit": {
+            "part": 1,
+            "total": 2
+          },
+          "normalizedSha256": "15F23FD324BC7A567DC1D9848524DFCEC58AFF6AF2C1C1C8597E046A524FCBFC",
+          "manifestSha256": "A098D97251B5F727E0D969ECF8605669269142D80F52B7030389C2A74F45906D",
+          "contentSetSha256": "20A750BD27B31C24A531D3C252C669ECE305AB08F71E089F57014C33B497F2A3",
+          "comparedAgainst": []
+        },
+        {
+          "catalogId": "curse-arms-strider-2-slus-01163-20260915-p2of2",
+          "sourceArtifact": "Strider 2 by Curse_Arms",
+          "sourceSha256": "8CC9096818BC343BA107E3733B48D42C6E9BC3A49512FD4409E05F6C854B56F8",
+          "assetName": "curse-arms-strider-2-slus-01163-20260915-p2of2.zip",
+          "sourceSplit": {
+            "part": 2,
+            "total": 2
+          },
+          "normalizedSha256": "0E9B2BC715798898A6C549967285C63076F195BCE962ABA30A3D237D6ABBEC90",
+          "manifestSha256": "46126CE7D5C54506E9B47C51D3194AEEC183B77B39C5192629B40BC2138464B1",
+          "contentSetSha256": "A8F2C2CB281ACFFA8C359F8E60F9680E3398C92727E65341FE7636C0BE38EB55",
+          "comparedAgainst": []
+        },
+        {
+          "catalogId": "crazy-ivan-resident-evil-director-s-cut-slus-00551-20260915",
+          "sourceArtifact": "Resident Evil: Director's Cut by Crazy Ivan",
+          "sourceSha256": "331D2A97E7EF8F7DF3552CBC04E3C0377CBAE49BAA5F28AA338B57A4CED4B54F",
+          "assetName": "crazy-ivan-resident-evil-director-s-cut-slus-00551-20260915.zip",
+          "normalizedSha256": "65480F0E9CA50AD4A975E764B9E78F2F095B33CDB91828C61A8EEA24FE103AC5",
+          "manifestSha256": "F18A7F514410CBFDD73DC09DE6E6B436947958C031BC91645A6CA3E0395FB305",
+          "contentSetSha256": "7CCACF5D3AD061B045CB3E42858DCBF58EFF8A3CE9F4332332A0C3916325DEA2",
+          "comparedAgainst": []
+        },
+        {
+          "catalogId": "bussareas-spider-man-2-enter-electro-slus-01378-20260915",
+          "sourceArtifact": "Spider-Man 2: Enter Electro by Bussareas",
+          "sourceSha256": "C1192348C9B3CC67E66358AFF0B3622E3126E07C9A1778D98450065E4368BA53",
+          "assetName": "bussareas-spider-man-2-enter-electro-slus-01378-20260915.zip",
+          "normalizedSha256": "02D74CD1824C6870413959F7BFEF6596E21FE7F0A8B64B80E87AB1654A0CFC39",
+          "manifestSha256": "13F0980A291DEC431EB7D75613EED103A4D2C9629780B1479602F793C8886688",
+          "contentSetSha256": "58346939041DB6A473B8D9334EE2615720745892775FEBC84F216ED7E31C0E59",
+          "comparedAgainst": []
+        },
+        {
+          "catalogId": "curse-arms-street-fighter-ex-plus-alpha-slus-00548-20260915",
+          "sourceArtifact": "Street Fighter EX Plus Alpha by Curse_Arms",
+          "sourceSha256": "E83DBA9C4F3741A535CB69E3DE2DCFA780DB5659106CBEA4C9CAB7BF1C815367",
+          "assetName": "curse-arms-street-fighter-ex-plus-alpha-slus-00548-20260915.zip",
+          "normalizedSha256": "17A99F04D61BA4DF6F5E0D1E963CF56E1B2C78C9FD215F548FD1F07980B065AC",
+          "manifestSha256": "87946F3BA0BA7B864C806113C384BAD6BD3283143773AB7D6C8A0B7BF3573B46",
+          "contentSetSha256": "95261B0AC93F80870801776B5809FDB8C242865D23AA354171118CBA7306C4F5",
+          "comparedAgainst": []
+        },
+        {
+          "catalogId": "curse-arms-einhander-scus-94243-20260915",
+          "sourceArtifact": "Einhänder by Curse_Arms",
+          "sourceSha256": "0B567E675D5A34E84440E24920C2421C8A5AB541AC3AAE3417ABFC8522EDF7B4",
+          "assetName": "curse-arms-einhander-scus-94243-20260915.zip",
+          "normalizedSha256": "C41432665FE402A5FF48BB65E5B7809C39F20CEC036192215FAAE13AC99BB51E",
+          "manifestSha256": "99915C071CCCED5D39A18DA5F7618C3A622A9C30653371C912B555E6C6F3A629",
+          "contentSetSha256": "7FFEA51AD5D33154D0F07C3436D44D21AB54D9B490B1A1B1FB074D386790CD75",
+          "comparedAgainst": []
+        }
+      ]
     }
   ]
 }
