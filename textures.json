@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-15T21:25:57Z",
+  "generatedAt": "2026-09-16T07:30:08Z",
   "entries": [
     {
       "id": "sombertwilight-silent-hill-slus-00707-20260913",
@@ -863,6 +863,57 @@
           "sha256": "80CD48294BB9DF735DE7DC68C27F5DEB875D5F32B00885DC787EF473D03EB9D2"
         }
       ]
+    },
+    {
+      "id": "retrogamemaster-option-tuning-car-battle-spec-r-slps-02587-20260916",
+      "name": "Option Tuning Car Battle Spec-R HD Texture Pack",
+      "gameTitle": "Option Tuning Car Battle Spec-R",
+      "serials": ["SLPS-02587"],
+      "version": "public release",
+      "authors": ["RetroGameMaster"],
+      "credits": "HD texture pack created by RetroGameMaster; normalized and repackaged by EmuCoreR with the original source and author attribution retained. All rights remain with the original creator.",
+      "description": "AI-upscaled replacement textures for Option Tuning Car Battle Spec-R (SLPS-02587).",
+      "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/retrogamemaster-option-tuning-car-battle-spec-r-slps-02587-20260916.zip",
+      "sourceUrl": "https://gbatemp.net/threads/option-tuning-car-battle-spec-r-hd-pack-duckstation.674367/",
+      "license": "See source page terms",
+      "sizeBytes": 113204926,
+      "sha256": "BE75BF2E39DCC0D04F01431A136BF251C06AEE44EB292D1CCA1078510565D20F",
+      "fileCount": 1986,
+      "previewUrls": []
+    },
+    {
+      "id": "isaac3030-tenchu-stealth-assassins-slus-00706-20260916",
+      "name": "Tenchu: Stealth Assassins HD Texture Pack",
+      "gameTitle": "Tenchu: Stealth Assassins",
+      "serials": ["SLUS-00706"],
+      "version": "public release",
+      "authors": ["isaac3030"],
+      "credits": "HD texture pack created by isaac3030; normalized and repackaged by EmuCoreR with the original source and author attribution retained. All rights remain with the original creator.",
+      "description": "AI-upscaled replacement textures for Tenchu: Stealth Assassins (SLUS-00706).",
+      "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/isaac3030-tenchu-stealth-assassins-slus-00706-20260916.zip",
+      "sourceUrl": "https://gbatemp.net/threads/tenchu-stealth-assassins-slus-00706-pack-texture-hd-x4.683904/",
+      "license": "See source page terms",
+      "sizeBytes": 114084574,
+      "sha256": "542E331D13ECEBA199E441D10645C36CAB20500FBCB58FB1400CEF1F589C9FD1",
+      "fileCount": 2262,
+      "previewUrls": []
+    },
+    {
+      "id": "isaac3030-tenchu-2-birth-of-the-stealth-assassins-sles-02465-20260916",
+      "name": "Tenchu 2: Birth of the Stealth Assassins HD Texture Pack",
+      "gameTitle": "Tenchu 2: Birth of the Stealth Assassins",
+      "serials": ["SLES-02465"],
+      "version": "public release",
+      "authors": ["isaac3030"],
+      "credits": "HD texture pack created by isaac3030; normalized and repackaged by EmuCoreR with the original source and author attribution retained. All rights remain with the original creator.",
+      "description": "AI-upscaled replacement textures for Tenchu 2: Birth of the Stealth Assassins (SLES-02465).",
+      "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/isaac3030-tenchu-2-birth-of-the-stealth-assassins-sles-02465-20260916.zip",
+      "sourceUrl": "https://gbatemp.net/threads/psx-tenchu-2-birth-of-the-stealth-assassins-pal-spa-sles-02465.683345/",
+      "license": "See source page terms",
+      "sizeBytes": 594763229,
+      "sha256": "FEA1FA4C9FC1CF38CDD7B11520241ADC6893918D7DBC2F73EA8ECF01FC879D2D",
+      "fileCount": 7958,
+      "previewUrls": []
     }
   ]
 }

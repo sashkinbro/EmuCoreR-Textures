@@ -530,6 +530,43 @@
           "comparedAgainst": []
         }
       ]
+    },
+    {
+      "id": "2026-09-16-001",
+      "verifiedAt": "2026-09-16T07:30:08Z",
+      "releaseTag": "texture-catalog-2026-09-13",
+      "entries": [
+        {
+          "catalogId": "retrogamemaster-option-tuning-car-battle-spec-r-slps-02587-20260916",
+          "sourceArtifact": "Option Tuning Car Battle Spec-R by RetroGameMaster",
+          "sourceSha256": "2DB96B60E36032D6770F6356223C89ED70814CC599498EF44269A8037D003E34",
+          "assetName": "retrogamemaster-option-tuning-car-battle-spec-r-slps-02587-20260916.zip",
+          "normalizedSha256": "BE75BF2E39DCC0D04F01431A136BF251C06AEE44EB292D1CCA1078510565D20F",
+          "manifestSha256": "83C6B3E45D9E023F1E1F0F19204E28CE858B1E5D2982239C5C9F632FFCDC8E84",
+          "contentSetSha256": "D1F54341781F90A68EC9E5A794E62D1E7A2CE73978DC0309D1A550E4501238E7",
+          "comparedAgainst": []
+        },
+        {
+          "catalogId": "isaac3030-tenchu-stealth-assassins-slus-00706-20260916",
+          "sourceArtifact": "Tenchu: Stealth Assassins by isaac3030",
+          "sourceSha256": "1746AF809A073ADE4CBDD71E19F22031E92620FE5029093F40B43A2D0CB1660D",
+          "assetName": "isaac3030-tenchu-stealth-assassins-slus-00706-20260916.zip",
+          "normalizedSha256": "542E331D13ECEBA199E441D10645C36CAB20500FBCB58FB1400CEF1F589C9FD1",
+          "manifestSha256": "95820A89FF78504373D2180F2FAF2AA5BA9A2A9B0689B5464B4201D0B40D32F6",
+          "contentSetSha256": "92FCC10AF42371D13B04AAB59333F14357021B1CF656C177FDFBDA3A935CB133",
+          "comparedAgainst": []
+        },
+        {
+          "catalogId": "isaac3030-tenchu-2-birth-of-the-stealth-assassins-sles-02465-20260916",
+          "sourceArtifact": "Tenchu 2: Birth of the Stealth Assassins by isaac3030",
+          "sourceSha256": "56E85C417CA4914D98C16A115FBF57C9465F6A3CEF0883CF2EF00D7C37CC1BD1",
+          "assetName": "isaac3030-tenchu-2-birth-of-the-stealth-assassins-sles-02465-20260916.zip",
+          "normalizedSha256": "FEA1FA4C9FC1CF38CDD7B11520241ADC6893918D7DBC2F73EA8ECF01FC879D2D",
+          "manifestSha256": "D93A4832ADE5597F18288B50D75316D8650280D9CA941A6CBE09F45420EEC406",
+          "contentSetSha256": "78A85178BCA826D9C8028210A45ACECD9149D2A269A71D4B30CC575AFE1F8903",
+          "comparedAgainst": []
+        }
+      ]
     }
   ]
 }
