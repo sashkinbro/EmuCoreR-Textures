@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-16T07:30:08Z",
+  "generatedAt": "2026-09-16T08:35:38Z",
   "entries": [
     {
       "id": "sombertwilight-silent-hill-slus-00707-20260913",
@@ -914,6 +914,227 @@
       "sha256": "FEA1FA4C9FC1CF38CDD7B11520241ADC6893918D7DBC2F73EA8ECF01FC879D2D",
       "fileCount": 7958,
       "previewUrls": []
+    },
+    {
+      "id": "isaac3030-dino-crisis-sles-02211-20260916",
+      "name": "Dino Crisis HD Texture Pack",
+      "gameTitle": "Dino Crisis",
+      "serials": ["SLES-02211"],
+      "version": "public release",
+      "authors": ["isaac3030"],
+      "credits": "HD texture pack created by isaac3030; normalized and repackaged by EmuCoreR with the original source and author attribution retained. All rights remain with the original creator.",
+      "description": "AI-upscaled replacement textures for Dino Crisis (SLES-02211).",
+      "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/isaac3030-dino-crisis-sles-02211-20260916.zip",
+      "sourceUrl": "https://gbatemp.net/threads/pxs-dino-crisis-pack-textures-hd-sles-02211.679991/",
+      "license": "See source page terms",
+      "sizeBytes": 641841719,
+      "sha256": "F9C9DAD51C28B7EF9E3FD281297ED0E340AF19B90B85FCD915B048BAB2D6CA15",
+      "fileCount": 12632,
+      "previewUrls": []
+    },
+    {
+      "id": "isaac3030-g-police-sles-00082-20260916",
+      "name": "G-Police HD Texture Pack",
+      "gameTitle": "G-Police",
+      "serials": ["SLES-00082", "SLES-00856", "SLES-10856"],
+      "version": "public release",
+      "authors": ["isaac3030"],
+      "credits": "HD texture pack created by isaac3030; normalized and repackaged by EmuCoreR with the original source and author attribution retained. All rights remain with the original creator.",
+      "description": "AI-upscaled replacement textures for G-Police (SLES-00082, SLES-00856, SLES-10856).",
+      "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/isaac3030-g-police-sles-00082-20260916.zip",
+      "sourceUrl": "https://gbatemp.net/threads/psx-g-police-pack-texture-x4-hd-cd1-pal-spa-sles-00856-cd2-pal-spa-sles-10856.681346/",
+      "license": "See source page terms",
+      "sizeBytes": 113308354,
+      "sha256": "A3C17AAE50B18446752FA073ADD5A0780F9BDB7CD33CC55828DFD8A92C08D0D5",
+      "fileCount": 2447,
+      "previewUrls": []
+    },
+    {
+      "id": "isaac3030-g-police-weapons-of-justice-sces-01919-20260916",
+      "name": "G-Police: Weapons of Justice HD Texture Pack",
+      "gameTitle": "G-Police: Weapons of Justice",
+      "serials": ["SCES-01919"],
+      "version": "public release",
+      "authors": ["isaac3030"],
+      "credits": "HD texture pack created by isaac3030; normalized and repackaged by EmuCoreR with the original source and author attribution retained. All rights remain with the original creator.",
+      "description": "AI-upscaled replacement textures for G-Police: Weapons of Justice (SCES-01919).",
+      "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/isaac3030-g-police-weapons-of-justice-sces-01919-20260916.zip",
+      "sourceUrl": "https://gbatemp.net/threads/pxs-g-police-weapons-of-justice-texture-hd-x4-pal-sces-01919.680255/",
+      "license": "See source page terms",
+      "sizeBytes": 120995309,
+      "sha256": "ED7D220F336A1BEAE5395977B35EF863B946897F3F04546F0E9EDC24334479B7",
+      "fileCount": 2640,
+      "previewUrls": []
+    },
+    {
+      "id": "isaac3030-metal-gear-solid-sles-01734-20260916-p1of2",
+      "name": "Metal Gear Solid HD Texture Pack (Part 1 of 2)",
+      "gameTitle": "Metal Gear Solid",
+      "serials": ["SLES-01734"],
+      "version": "public release",
+      "authors": ["isaac3030"],
+      "credits": "HD texture pack created by isaac3030; normalized and repackaged by EmuCoreR with the original source and author attribution retained. All rights remain with the original creator.",
+      "description": "AI-upscaled replacement textures for Metal Gear Solid (SLES-01734). Ordered part 1 of 2; install all parts into the same game folder.",
+      "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/isaac3030-metal-gear-solid-sles-01734-20260916-p1of2.zip",
+      "sourceUrl": "https://gbatemp.net/threads/pxs-metal-gear-solid-textures-hd-x4-pal-spa-sles-01734-cd1-sles-11734-cd2.680258/",
+      "license": "See source page terms",
+      "sizeBytes": 883151416,
+      "sha256": "6E7FAC49B69495B1B48464FB6CFB36B510E702A4BD0714AD47A5555FB9B67AA7",
+      "fileCount": 14065,
+      "previewUrls": []
+    },
+    {
+      "id": "isaac3030-metal-gear-solid-sles-11734-20260916-p2of2",
+      "name": "Metal Gear Solid HD Texture Pack (Part 2 of 2)",
+      "gameTitle": "Metal Gear Solid",
+      "serials": ["SLES-11734"],
+      "version": "public release",
+      "authors": ["isaac3030"],
+      "credits": "HD texture pack created by isaac3030; normalized and repackaged by EmuCoreR with the original source and author attribution retained. All rights remain with the original creator.",
+      "description": "AI-upscaled replacement textures for Metal Gear Solid (SLES-11734). Ordered part 2 of 2; install all parts into the same game folder.",
+      "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/isaac3030-metal-gear-solid-sles-11734-20260916-p2of2.zip",
+      "sourceUrl": "https://gbatemp.net/threads/pxs-metal-gear-solid-textures-hd-x4-pal-spa-sles-01734-cd1-sles-11734-cd2.680258/",
+      "license": "See source page terms",
+      "sizeBytes": 601234496,
+      "sha256": "A27DE31631D67D2DC9210ED9EE198D38EBE5CC4580059F14F770E1C142995595",
+      "fileCount": 9094,
+      "previewUrls": []
+    },
+    {
+      "id": "curse-arms-nightmare-creatures-slus-00582-20260916",
+      "name": "Nightmare Creatures HD Texture Pack",
+      "gameTitle": "Nightmare Creatures",
+      "serials": ["SLUS-00582"],
+      "version": "public release",
+      "authors": ["Curse_Arms"],
+      "credits": "HD texture pack created by Curse_Arms; normalized and repackaged by EmuCoreR with the original source and author attribution retained. All rights remain with the original creator.",
+      "description": "AI-upscaled replacement textures for Nightmare Creatures (SLUS-00582).",
+      "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-nightmare-creatures-slus-00582-20260916.zip",
+      "sourceUrl": "https://gbatemp.net/threads/my-hd-remaster-pack.630347/",
+      "license": "See source page terms",
+      "sizeBytes": 1550398141,
+      "sha256": "6165D708BC2886BA6A5D2D0F66160DB031CBC25BF3587ADD75A27274E406CB47",
+      "fileCount": 6890,
+      "previewUrls": []
+    },
+    {
+      "id": "curse-arms-parasite-eve-slus-00662-20260916-p1of2",
+      "name": "Parasite Eve HD Texture Pack (Part 1 of 2)",
+      "gameTitle": "Parasite Eve",
+      "serials": ["SLUS-00662"],
+      "version": "public release",
+      "authors": ["Curse_Arms"],
+      "credits": "HD texture pack created by Curse_Arms; normalized and repackaged by EmuCoreR with the original source and author attribution retained. All rights remain with the original creator.",
+      "description": "AI-upscaled replacement textures for Parasite Eve (SLUS-00662). Ordered part 1 of 2; install all parts into the same game folder.",
+      "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-parasite-eve-slus-00662-20260916-p1of2.zip.part001",
+      "sourceUrl": "https://gbatemp.net/threads/my-hd-remaster-pack.630347/",
+      "license": "See source page terms",
+      "sizeBytes": 2881250260,
+      "sha256": "4F162B3293BD2830885FC3D42867D43749EDB6D25A7B32F3B9A7B9EB303FED9A",
+      "fileCount": 31847,
+      "previewUrls": [],
+      "parts": [
+        {
+          "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-parasite-eve-slus-00662-20260916-p1of2.zip.part001",
+          "sizeBytes": 1900000000,
+          "sha256": "468DEF36F13AB6F39078B7EDBC004589199D9C8F4BF831F4FD80B22905DD394F"
+        },
+        {
+          "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-parasite-eve-slus-00662-20260916-p1of2.zip.part002",
+          "sizeBytes": 981250260,
+          "sha256": "0EBFB3879F81A96D9BB55B89D6CE21DED883B4915A3ECBB37141200AE422F0E7"
+        }
+      ]
+    },
+    {
+      "id": "curse-arms-parasite-eve-slus-00668-20260916-p2of2",
+      "name": "Parasite Eve HD Texture Pack (Part 2 of 2)",
+      "gameTitle": "Parasite Eve",
+      "serials": ["SLUS-00668"],
+      "version": "public release",
+      "authors": ["Curse_Arms"],
+      "credits": "HD texture pack created by Curse_Arms; normalized and repackaged by EmuCoreR with the original source and author attribution retained. All rights remain with the original creator.",
+      "description": "AI-upscaled replacement textures for Parasite Eve (SLUS-00668). Ordered part 2 of 2; install all parts into the same game folder.",
+      "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-parasite-eve-slus-00668-20260916-p2of2.zip",
+      "sourceUrl": "https://gbatemp.net/threads/my-hd-remaster-pack.630347/",
+      "license": "See source page terms",
+      "sizeBytes": 1054443106,
+      "sha256": "64AE85998575A4EDA4F3518D1C896FBCB4CA6C63C191BB7EFD05E72D7259629E",
+      "fileCount": 12095,
+      "previewUrls": []
+    },
+    {
+      "id": "uck-tomba-2-the-evil-swine-return-sces-02687-20260916",
+      "name": "Tomba! 2: The Evil Swine Return HD Texture Pack",
+      "gameTitle": "Tomba! 2: The Evil Swine Return",
+      "serials": ["SCES-02687"],
+      "version": "public release",
+      "authors": ["uck"],
+      "credits": "HD texture pack created by uck; normalized and repackaged by EmuCoreR with the original source and author attribution retained. All rights remain with the original creator.",
+      "description": "AI-upscaled replacement textures for Tomba! 2: The Evil Swine Return (SCES-02687).",
+      "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/uck-tomba-2-the-evil-swine-return-sces-02687-20260916.zip",
+      "sourceUrl": "https://gbatemp.net/threads/psx-tombi-2-pal-sces-02687.682040/",
+      "license": "See source page terms",
+      "sizeBytes": 586412040,
+      "sha256": "50E1497BEAD77F208172A798FAC3A02B1BE49FBF459C993DC85781CDBCE45187",
+      "fileCount": 5401,
+      "previewUrls": []
+    },
+    {
+      "id": "isaac3030-treasures-of-the-deep-sces-01073-20260916",
+      "name": "Treasures of the Deep HD Texture Pack",
+      "gameTitle": "Treasures of the Deep",
+      "serials": ["SCES-01073"],
+      "version": "public release",
+      "authors": ["isaac3030"],
+      "credits": "HD texture pack created by isaac3030; normalized and repackaged by EmuCoreR with the original source and author attribution retained. All rights remain with the original creator.",
+      "description": "AI-upscaled replacement textures for Treasures of the Deep (SCES-01073).",
+      "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/isaac3030-treasures-of-the-deep-sces-01073-20260916.zip",
+      "sourceUrl": "https://gbatemp.net/threads/pxs-treasures-of-the-deep-textures-hd-x4-pal-sces-01073.680069/",
+      "license": "See source page terms",
+      "sizeBytes": 1851004849,
+      "sha256": "BB2E78C6DFB36E0590D89A0DF1FD4586518D9C4186E58C03EE8ECD44E9343F24",
+      "fileCount": 7905,
+      "previewUrls": []
+    },
+    {
+      "id": "curse-arms-breath-of-fire-iv-slus-01324-20260916",
+      "name": "Breath of Fire IV HD Texture Pack",
+      "gameTitle": "Breath of Fire IV",
+      "serials": ["SLUS-01324"],
+      "version": "public release",
+      "authors": ["Curse_Arms"],
+      "credits": "HD texture pack created by Curse_Arms; normalized and repackaged by EmuCoreR with the original source and author attribution retained. All rights remain with the original creator.",
+      "description": "AI-upscaled replacement textures for Breath of Fire IV (SLUS-01324).",
+      "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-breath-of-fire-iv-slus-01324-20260916.zip.part001",
+      "sourceUrl": "https://gbatemp.net/threads/breath-of-fire-iv-hd-textures.667850/",
+      "license": "See source page terms",
+      "sizeBytes": 7531999707,
+      "sha256": "0BA2601B67EF9F617B77AA4248A815E9CED8901DE2DFB0D071B7155FD90F7404",
+      "fileCount": 22173,
+      "previewUrls": [],
+      "parts": [
+        {
+          "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-breath-of-fire-iv-slus-01324-20260916.zip.part001",
+          "sizeBytes": 1900000000,
+          "sha256": "1D8CE275E89D503FD6EB20EF80F23216F0C39400D7F15D1912C86F690423B7FA"
+        },
+        {
+          "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-breath-of-fire-iv-slus-01324-20260916.zip.part002",
+          "sizeBytes": 1900000000,
+          "sha256": "CECA4112492A890B73852AA919D08D48F16D4EFEC20C5A5BDB884D8064561B81"
+        },
+        {
+          "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-breath-of-fire-iv-slus-01324-20260916.zip.part003",
+          "sizeBytes": 1900000000,
+          "sha256": "70E5C25E4E710E792567B084F93F0544DA82CCB76EDCC9D9DC64E7360465A4E2"
+        },
+        {
+          "downloadUrl": "https://github.com/sashkinbro/EmuCoreR-Textures/releases/download/texture-catalog-2026-09-13/curse-arms-breath-of-fire-iv-slus-01324-20260916.zip.part004",
+          "sizeBytes": 1831999707,
+          "sha256": "9F94C5F66FDF8127383441AACBE05A555BF006AF5D5617163A87A95E1B3B0A8F"
+        }
+      ]
     }
   ]
 }

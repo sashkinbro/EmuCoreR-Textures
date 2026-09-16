@@ -567,6 +567,149 @@
           "comparedAgainst": []
         }
       ]
+    },
+    {
+      "id": "2026-09-16-002",
+      "verifiedAt": "2026-09-16T08:35:38Z",
+      "releaseTag": "texture-catalog-2026-09-13",
+      "entries": [
+        {
+          "catalogId": "isaac3030-dino-crisis-sles-02211-20260916",
+          "sourceArtifact": "Dino Crisis by isaac3030",
+          "sourceSha256": "09B69FE89FD2D49EF30BDECDA5BF7A6D062ED1493B48C1423B3D05280D5681B8",
+          "assetName": "isaac3030-dino-crisis-sles-02211-20260916.zip",
+          "normalizedSha256": "F9C9DAD51C28B7EF9E3FD281297ED0E340AF19B90B85FCD915B048BAB2D6CA15",
+          "manifestSha256": "E09B3D81B572BB46257D8701511CE4F44AD382FD83D75AFC830EBA8B74A984B1",
+          "contentSetSha256": "C03B215DD8BBFB07C64A7577F2BAF7E4558BAC40FA2C24D166AFC6C3BDC4CD8A",
+          "comparedAgainst": []
+        },
+        {
+          "catalogId": "isaac3030-g-police-sles-00082-20260916",
+          "sourceArtifact": "G-Police by isaac3030",
+          "sourceSha256": "913630AB94F3C16E7FB7E89C8611D4E8E9E300B2BE70A02FA5CB253E0BC96ABF",
+          "assetName": "isaac3030-g-police-sles-00082-20260916.zip",
+          "normalizedSha256": "A3C17AAE50B18446752FA073ADD5A0780F9BDB7CD33CC55828DFD8A92C08D0D5",
+          "manifestSha256": "B841D5DD04C00B1C138535E61E2F4087F494CC72CE5C2614589FE2A5A66EA28E",
+          "contentSetSha256": "90424A463C00CFFD26F8B2A9811B62041074F1197510194A425B6FE78D7B5EC9",
+          "comparedAgainst": []
+        },
+        {
+          "catalogId": "isaac3030-g-police-weapons-of-justice-sces-01919-20260916",
+          "sourceArtifact": "G-Police: Weapons of Justice by isaac3030",
+          "sourceSha256": "0590BFFA3098E22B728570306355A3BEF42F115DE6C941385C397502589A52E0",
+          "assetName": "isaac3030-g-police-weapons-of-justice-sces-01919-20260916.zip",
+          "normalizedSha256": "ED7D220F336A1BEAE5395977B35EF863B946897F3F04546F0E9EDC24334479B7",
+          "manifestSha256": "F36A8967E53C6ECC51BC42E0C4AA791A31BFE661D91D7D37628581558017B753",
+          "contentSetSha256": "29CDDAFE4D598D5A74F75B668DE423803FEFA905FBBE796D909F9743BEEE5272",
+          "comparedAgainst": []
+        },
+        {
+          "catalogId": "isaac3030-metal-gear-solid-sles-01734-20260916-p1of2",
+          "sourceArtifact": "Metal Gear Solid by isaac3030",
+          "sourceSha256": "FF963E1584CFA3C0BAC348BB99A11100D4B135637F663ECC7698BF1A31F98763",
+          "assetName": "isaac3030-metal-gear-solid-sles-01734-20260916-p1of2.zip",
+          "sourceSplit": {
+            "part": 1,
+            "total": 2
+          },
+          "normalizedSha256": "6E7FAC49B69495B1B48464FB6CFB36B510E702A4BD0714AD47A5555FB9B67AA7",
+          "manifestSha256": "355B3F99870A38A02717F5F8C3D692ED2F6C030BD7B6C4E0A2E235BF452DCE02",
+          "contentSetSha256": "664146F184E66DEC98F31D32D1010C28A4F6B3A9F53D9B50AFEEE4B8E10279C8",
+          "comparedAgainst": []
+        },
+        {
+          "catalogId": "isaac3030-metal-gear-solid-sles-11734-20260916-p2of2",
+          "sourceArtifact": "Metal Gear Solid by isaac3030",
+          "sourceSha256": "FF963E1584CFA3C0BAC348BB99A11100D4B135637F663ECC7698BF1A31F98763",
+          "assetName": "isaac3030-metal-gear-solid-sles-11734-20260916-p2of2.zip",
+          "sourceSplit": {
+            "part": 2,
+            "total": 2
+          },
+          "normalizedSha256": "A27DE31631D67D2DC9210ED9EE198D38EBE5CC4580059F14F770E1C142995595",
+          "manifestSha256": "74DC498AA9DC19CF8DDBD60F9D61837E31F64FA8393997CEF960A5CBCCB95FB8",
+          "contentSetSha256": "FB5BD09EC86C347E22AC4026FC027FC05A459BD34436F7E12757D0210BD0A527",
+          "comparedAgainst": []
+        },
+        {
+          "catalogId": "curse-arms-nightmare-creatures-slus-00582-20260916",
+          "sourceArtifact": "Nightmare Creatures by Curse_Arms",
+          "sourceSha256": "BD2150480394700E5FA5C70469D59E838F60F3563067194291A1757F6E6FC776",
+          "assetName": "curse-arms-nightmare-creatures-slus-00582-20260916.zip",
+          "normalizedSha256": "6165D708BC2886BA6A5D2D0F66160DB031CBC25BF3587ADD75A27274E406CB47",
+          "manifestSha256": "873D506F48DC71B86117FE6E547BBD9165E49149BFBBE5A248C5D39C2C3F4E6E",
+          "contentSetSha256": "CB7B02DBE64287E8EEE73ECC04770DE4EE9DE489BEB6148E7BD1E15FB1E56238",
+          "comparedAgainst": []
+        },
+        {
+          "catalogId": "curse-arms-parasite-eve-slus-00662-20260916-p1of2",
+          "sourceArtifact": "Parasite Eve by Curse_Arms",
+          "sourceSha256": "A9B8B63667D1FC7DFD1E706AF9D2439C678BB7E51848E952CD3B1B532A039E72",
+          "assetName": "curse-arms-parasite-eve-slus-00662-20260916-p1of2.zip",
+          "assetParts": [
+            "curse-arms-parasite-eve-slus-00662-20260916-p1of2.zip.part001",
+            "curse-arms-parasite-eve-slus-00662-20260916-p1of2.zip.part002"
+          ],
+          "sourceSplit": {
+            "part": 1,
+            "total": 2
+          },
+          "normalizedSha256": "4F162B3293BD2830885FC3D42867D43749EDB6D25A7B32F3B9A7B9EB303FED9A",
+          "manifestSha256": "49699056054529C1E8A4FB69AD2D6D4CEF4E4D95854EAFFDDBB2380455AED5CA",
+          "contentSetSha256": "7CD7E6B265FB91CE1841888651E117A6130A1A39E4F9E7AC25A0479E5C43F0DE",
+          "comparedAgainst": []
+        },
+        {
+          "catalogId": "curse-arms-parasite-eve-slus-00668-20260916-p2of2",
+          "sourceArtifact": "Parasite Eve by Curse_Arms",
+          "sourceSha256": "A9B8B63667D1FC7DFD1E706AF9D2439C678BB7E51848E952CD3B1B532A039E72",
+          "assetName": "curse-arms-parasite-eve-slus-00668-20260916-p2of2.zip",
+          "sourceSplit": {
+            "part": 2,
+            "total": 2
+          },
+          "normalizedSha256": "64AE85998575A4EDA4F3518D1C896FBCB4CA6C63C191BB7EFD05E72D7259629E",
+          "manifestSha256": "56139A5AAB3F55DAC64268CDF262B092ECD40358C692625140E07C839E7B8A1D",
+          "contentSetSha256": "68D343E3A84D43EFB84D679996FF81B12D47900257192710159821C360A8EB33",
+          "comparedAgainst": []
+        },
+        {
+          "catalogId": "uck-tomba-2-the-evil-swine-return-sces-02687-20260916",
+          "sourceArtifact": "Tomba! 2: The Evil Swine Return by uck",
+          "sourceSha256": "747FCD53273B328A1C25A35A9CAE1B13A06C920A566F8B8AD7BE6B4BA1E54492",
+          "assetName": "uck-tomba-2-the-evil-swine-return-sces-02687-20260916.zip",
+          "normalizedSha256": "50E1497BEAD77F208172A798FAC3A02B1BE49FBF459C993DC85781CDBCE45187",
+          "manifestSha256": "84EAFEA17CAE05F4A87B900E2C9899D68FFC6FDB685122B2BD49706E287DAEA8",
+          "contentSetSha256": "BB0F55F8BB53BC95EDB7AFEC31660FBF931695C27EF79DD9CEF5B5565FC3BDD3",
+          "comparedAgainst": []
+        },
+        {
+          "catalogId": "isaac3030-treasures-of-the-deep-sces-01073-20260916",
+          "sourceArtifact": "Treasures of the Deep by isaac3030",
+          "sourceSha256": "8071BD5E8576EDD452159CEF8BEDE066C7A65190509511AD535F2D65CAFC67CD",
+          "assetName": "isaac3030-treasures-of-the-deep-sces-01073-20260916.zip",
+          "normalizedSha256": "BB2E78C6DFB36E0590D89A0DF1FD4586518D9C4186E58C03EE8ECD44E9343F24",
+          "manifestSha256": "5E9C738A76F7AEDD26CC4214363F88BA674A692C5F852A35A5A6646D30E07185",
+          "contentSetSha256": "BC7D0B964BE954972534F225FB7098CB621A6570B438FD7B1967E85112DF48F7",
+          "comparedAgainst": []
+        },
+        {
+          "catalogId": "curse-arms-breath-of-fire-iv-slus-01324-20260916",
+          "sourceArtifact": "Breath of Fire IV by Curse_Arms",
+          "sourceSha256": "DCA4FD06644126DE245BAC471522A9B1C3CD0B9BCE68C955D86B5288C4793662",
+          "assetName": "curse-arms-breath-of-fire-iv-slus-01324-20260916.zip",
+          "assetParts": [
+            "curse-arms-breath-of-fire-iv-slus-01324-20260916.zip.part001",
+            "curse-arms-breath-of-fire-iv-slus-01324-20260916.zip.part002",
+            "curse-arms-breath-of-fire-iv-slus-01324-20260916.zip.part003",
+            "curse-arms-breath-of-fire-iv-slus-01324-20260916.zip.part004"
+          ],
+          "normalizedSha256": "0BA2601B67EF9F617B77AA4248A815E9CED8901DE2DFB0D071B7155FD90F7404",
+          "manifestSha256": "4452B38C8C254407305849A05923428972AB2F97A8F3C460487B7B2FE1629881",
+          "contentSetSha256": "6388B4A2BC7B97597A9CB9328674C93352DAD23AFCEC1FFAE3304F48C65CB330",
+          "comparedAgainst": []
+        }
+      ]
     }
   ]
 }
